@@ -1,14 +1,14 @@
-\contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {subsection}{\numberline {1.1}What Is Electron?}{1}%
-\contentsline {subsection}{\numberline {1.2}Why Use Electron?}{3}%
-\contentsline {subsubsection}{\numberline {1.2.1}Desktop Applications}{3}%
-\contentsline {subsubsection}{\numberline {1.2.2}Web Applications}{3}%
-\contentsline {subsubsection}{\numberline {1.2.3}Electron as a Solution}{3}%
-\contentsline {section}{\numberline {2}Method}{3}%
-\contentsline {subsection}{\numberline {2.1}Developing with Electron}{3}%
-\contentsline {subsubsection}{\numberline {2.1.1}Requirements Analysis}{3}%
-\contentsline {subsubsection}{\numberline {2.1.2}Development Workflow with Electron}{3}%
-\contentsline {subsubsection}{\numberline {2.1.3}Finished Project}{3}%
-\contentsline {section}{\numberline {3}Analysis}{3}%
-\contentsline {subsection}{\numberline {3.1}Results}{3}%
-\contentsline {subsection}{\numberline {3.2}Vaadin as an Alternative to Electron}{3}%
+\contentsline {section}{\numberline {1}Introduction}{3}%
+\contentsline {subsection}{\numberline {1.1}What Is Electron?}{3}%
+\contentsline {subsection}{\numberline {1.2}Why Use Electron?}{5}%
+\contentsline {subsubsection}{\numberline {1.2.1}Desktop Applications}{5}%
+\contentsline {subsubsection}{\numberline {1.2.2}Web Applications}{5}%
+\contentsline {subsubsection}{\numberline {1.2.3}Electron as a Solution}{5}%
+\contentsline {section}{\numberline {2}Method}{5}%
+\contentsline {subsection}{\numberline {2.1}Developing with Electron}{5}%
+\contentsline {subsubsection}{\numberline {2.1.1}Requirements Analysis}{5}%
+\contentsline {subsubsection}{\numberline {2.1.2}Development Workflow with Electron}{5}%
+\contentsline {subsubsection}{\numberline {2.1.3}Finished Project}{5}%
+\contentsline {section}{\numberline {3}Analysis}{5}%
+\contentsline {subsection}{\numberline {3.1}Results}{5}%
+\contentsline {subsection}{\numberline {3.2}Vaadin as an Alternative to Electron}{5}%

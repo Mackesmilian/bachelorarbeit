@@ -5,30 +5,59 @@
 \documentclass[11pt]{article}
 
 % Packages
-\usepackage{amsmath}
-
+\usepackage{graphicx}
+\graphicspath{ {/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/} }
+\title{
+        {Development and Deployment of Web Applications as Installable Desktop Applications Using
+    Electron Framework}\\
+    {\large FH Campus 02}\\
+}
+\author{Maximilian Martin Wolf}
+\date{30 October 2021}
 % Document
 \begin{document}
 
+    \maketitle
+    \pagebreak
     \tableofcontents
+    \pagebreak
+
 
     \section{Introduction}\label{sec:introduction}
     \setcounter{tocdepth}{3}
+
     \subsection{What Is Electron?}\label{subsec:what-is-electron}
     \input{src/what-is-electron.tex}
+
     \subsection{Why Use Electron?}\label{subsec:why-use-electron}
+
     \subsubsection{Desktop Applications}\label{subsubsec:desktop-applications}
+
     \subsubsection{Web Applications}\label{subsubsec:web-applications}
+
     \subsubsection{Electron as a Solution}\label{subsubsec:electron-as-solution}
+
+
     \section{Method}\label{sec:method}
+
     \subsection{Developing with Electron}\label{subsec:developing-with-electron}
+
     \subsubsection{Requirements Analysis}\label{subsubsec:dev-requirements}
+
     \subsubsection{Development Workflow with Electron}\label{subsubsec:dev-workflow}
+
     \subsubsection{Finished Project}\label{subsubsec:dev-project}
+
+
     \section{Analysis}\label{sec:analysis}
+
     \subsection{Results}\label{subsec:results}
+
     \subsection{Vaadin as an Alternative to Electron}\label{subsec:vaadin-electron}
     \bibliographystyle{apalike}
+    \pagebreak
     \bibliography{main}
+    \pagebreak
+    \listoffigures
 
 \end{document}
