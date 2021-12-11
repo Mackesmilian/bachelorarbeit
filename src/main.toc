@@ -14,4 +14,4 @@
 \contentsline {subsection}{\numberline {3.1}Results}{6}%
 \contentsline {subsection}{\numberline {3.2}Vaadin as an Alternative to Electron}{6}%
 \contentsline {section}{References}{6}%
-\contentsline {section}{List of Figures}{7}%
+\contentsline {section}{List of Figures}{8}%
