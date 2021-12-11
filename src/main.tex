@@ -3,9 +3,10 @@
 
 % Preamble
 \documentclass[11pt]{article}
-
-% Packages
+%\addbibresource{../main.bib}
 \usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[nottoc]{tocbibind}
 \graphicspath{ {/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/} }
 \title{
         {Development and Deployment of Web Applications as Installable Desktop Applications Using
@@ -27,9 +28,10 @@
     \setcounter{tocdepth}{3}
 
     \subsection{What Is Electron?}\label{subsec:what-is-electron}
-    \input{src/what-is-electron.tex}
+    \input{what-is-electron.tex}
 
     \subsection{Why Use Electron?}\label{subsec:why-use-electron}
+    \input{why-use-electron.tex}
 
     \subsubsection{Desktop Applications}\label{subsubsec:desktop-applications}
 
@@ -54,8 +56,7 @@
     \subsection{Results}\label{subsec:results}
 
     \subsection{Vaadin as an Alternative to Electron}\label{subsec:vaadin-electron}
-    \bibliographystyle{apalike}
-    \pagebreak
+    \bibliographystyle{apa}
     \bibliography{main}
     \pagebreak
     \listoffigures
