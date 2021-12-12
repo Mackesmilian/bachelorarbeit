@@ -1,25 +1,14 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{3}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-
-\bibitem[{{Akamai Technologies}(2017)}]{akamai2017}
-{Akamai Technologies} (2017).
-\newblock Average internet connection speed in the united states from 2007 to
-  2017 (in mbps), by quarter.
-\newline\urlprefix\url{https://bit.ly/31PSvFV}
 
 \bibitem[{Gartner(2021)}]{gartner2021}
 Gartner (2021).
 \newblock Global public cloud application services (saas) market size
   2015-2022.
 \newline\urlprefix\url{https://bit.ly/3lZb8xV}
-
-\bibitem[{Jacobs(2005)}]{jacobs2005}
-Jacobs, D. (2005).
-\newblock Enterprise software as service.
-\newblock {\em Enterprise Distributed Computing\/}.
 
 \bibitem[{Jensen(2017)}]{jensen2017}
 Jensen, P.~B. (2017).
