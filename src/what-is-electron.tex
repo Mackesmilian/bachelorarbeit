@@ -1,21 +1,21 @@
 In December 2012 software engineer Cheng Zhao joined GitHub's team, having previously worked for Intel developing
 node-webkit, with the task of porting the Atom editor from using Chromium Embedded Framework to node-webkit.
-Node-webkit being a Node.js module developed by Roger Wang which combined the browser engine used by Chromium, WebKit 
+Node-webkit being a Node.js module developed by Roger Wang which combined the browser engine used by Chromium - WebKit - 
 with Node.js, making Node.js modules accessible from JavaScript code running inside a web page. \parencite{jensen2017}\paragraph{}
 
 Porting to node-webkit proved difficult, so GitHub abandoned that approach, and it was decided that a new native shell
 for Atom would be created.
-Said shell was dubbed \emph{Atom Shell} and shortly after development was finished and the Atom editor was open sourced
+Said shell was dubbed \emph{Atom Shell} and after development was finished and the Atom editor was open sourced
 by GitHub, Atom Shell soon followed suit and was renamed to \emph{Electron}.
 Initially developed as a way to deliver an editor, numerous widely known applications like Slack, Discord and Visual
-Studio have started using Electron to develop and deliver their desktop applications.
+Studio have started using Electron to develop and deliver their desktop applications.\parencite{electronDocs}
 But what exactly is Electron?\paragraph{}
 Electron is a framework which allows for the development of cross-platform desktop applications using only popular 
 web programming languages like HTML, CSS and JavaScript. 
 While the advantages will be discussed in detail in the next chapter \emph{Why Use Electron?}, the appeal to developers
 is obvious: Maintaining one codebase while being able to deliver the app to all desktop operating systems.\paragraph{}
 Now, as described previously the Electron framework serves the same purpose as node-webkit (later renamed to NW.js), but
-their approaches do differ in certain ways: \parencite{jensen2017}
+their approaches do differ in certain ways: \parencite{jensen2017}\par
 \begin{figure}[ht]
     \label{fig:el-architecture}
     \caption{A simplified representation of Electron's architecture. \parencite{jensen2017}}
@@ -42,8 +42,3 @@ Because Chromium works by running each tab as an individual process, as to not c
 tab become unresponsive, each application window in Electron runs as its own process.
 \textbf{Common} contains code which is used by both the main and renderer processes for running the application.
 Among other things this folder also contains the integration of Node.js' event loop with Chromium's event loop. \parencite{jensen2017}\paragraph{}
-One question still left unanswered is why the combination of Node.js and Chromium is required in the first place?
-Due to browser security, apps would not have access to the computer's resources such as its file system, adding no
-benefit over a traditional webpage.
-With Node.js, this access is possible and as another benefit, using Node.js means access to a myriad of libraries
-through npm.

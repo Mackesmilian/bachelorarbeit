@@ -15,7 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{5}%
+\contentsline {paragraph}{}{4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Why Use Electron?}{5}%
 \defcounter {refsection}{0}\relax 
@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{6}%
+\contentsline {paragraph}{}{5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{6}%
 \defcounter {refsection}{0}\relax 

@@ -2559,29 +2559,30 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">jensen2017</bcf:citekey>
-    <bcf:citekey order="2">jensen2017</bcf:citekey>
+    <bcf:citekey order="2">electronDocs</bcf:citekey>
     <bcf:citekey order="3">jensen2017</bcf:citekey>
     <bcf:citekey order="4">jensen2017</bcf:citekey>
     <bcf:citekey order="5">jensen2017</bcf:citekey>
     <bcf:citekey order="6">jensen2017</bcf:citekey>
     <bcf:citekey order="7">jensen2017</bcf:citekey>
-    <bcf:citekey order="8">gartner2021</bcf:citekey>
+    <bcf:citekey order="8">jensen2017</bcf:citekey>
     <bcf:citekey order="9">gartner2021</bcf:citekey>
-    <bcf:citekey order="10">jacobs2005</bcf:citekey>
-    <bcf:citekey order="11">mozilla2021</bcf:citekey>
-    <bcf:citekey order="11">jensen2017</bcf:citekey>
-    <bcf:citekey order="12">statista2021</bcf:citekey>
+    <bcf:citekey order="10">gartner2021</bcf:citekey>
+    <bcf:citekey order="11">jacobs2005</bcf:citekey>
+    <bcf:citekey order="12">mozilla2021</bcf:citekey>
+    <bcf:citekey order="12">jensen2017</bcf:citekey>
     <bcf:citekey order="13">statista2021</bcf:citekey>
-    <bcf:citekey order="14">akamai2017</bcf:citekey>
+    <bcf:citekey order="14">statista2021</bcf:citekey>
     <bcf:citekey order="15">akamai2017</bcf:citekey>
-    <bcf:citekey order="16">statista2021</bcf:citekey>
-    <bcf:citekey order="17">adobe2021</bcf:citekey>
-    <bcf:citekey order="18">jensen2017</bcf:citekey>
+    <bcf:citekey order="16">akamai2017</bcf:citekey>
+    <bcf:citekey order="17">statista2021</bcf:citekey>
+    <bcf:citekey order="18">adobe2021</bcf:citekey>
     <bcf:citekey order="19">jensen2017</bcf:citekey>
     <bcf:citekey order="20">jensen2017</bcf:citekey>
-    <bcf:citekey order="21">jacobs2005</bcf:citekey>
-    <bcf:citekey order="22">osenv</bcf:citekey>
-    <bcf:citekey order="23">electronDocs</bcf:citekey>
+    <bcf:citekey order="21">jensen2017</bcf:citekey>
+    <bcf:citekey order="22">jacobs2005</bcf:citekey>
+    <bcf:citekey order="23">osenv</bcf:citekey>
+    <bcf:citekey order="24">electronDocs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
