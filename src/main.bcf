@@ -2567,16 +2567,21 @@
     <bcf:citekey order="7">jensen2017</bcf:citekey>
     <bcf:citekey order="8">gartner2021</bcf:citekey>
     <bcf:citekey order="9">gartner2021</bcf:citekey>
-    <bcf:citekey order="10">statista2021</bcf:citekey>
-    <bcf:citekey order="11">adobe2021</bcf:citekey>
-    <bcf:citekey order="12">jensen2017</bcf:citekey>
-    <bcf:citekey order="13">jensen2017</bcf:citekey>
-    <bcf:citekey order="14">jensen2017</bcf:citekey>
-    <bcf:citekey order="15">mozilla2021</bcf:citekey>
+    <bcf:citekey order="10">jacobs2005</bcf:citekey>
+    <bcf:citekey order="11">mozilla2021</bcf:citekey>
+    <bcf:citekey order="11">jensen2017</bcf:citekey>
+    <bcf:citekey order="12">statista2021</bcf:citekey>
+    <bcf:citekey order="13">statista2021</bcf:citekey>
+    <bcf:citekey order="14">akamai2017</bcf:citekey>
+    <bcf:citekey order="15">akamai2017</bcf:citekey>
     <bcf:citekey order="16">statista2021</bcf:citekey>
-    <bcf:citekey order="17">akamai2017</bcf:citekey>
-    <bcf:citekey order="17">statista2021</bcf:citekey>
-    <bcf:citekey order="18">jacobs2005</bcf:citekey>
+    <bcf:citekey order="17">adobe2021</bcf:citekey>
+    <bcf:citekey order="18">jensen2017</bcf:citekey>
+    <bcf:citekey order="19">jensen2017</bcf:citekey>
+    <bcf:citekey order="20">jensen2017</bcf:citekey>
+    <bcf:citekey order="21">jacobs2005</bcf:citekey>
+    <bcf:citekey order="22">osenv</bcf:citekey>
+    <bcf:citekey order="23">electronDocs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

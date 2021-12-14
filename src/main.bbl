@@ -86,6 +86,38 @@
       \verb https://bit.ly/31PSvFV
       \endverb
     \endentry
+    \entry{electronDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
+           family={{Electron Framework}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{fullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{bibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{osenv}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronjs.org/docs/latest
+      \endverb
+      \verb{url}
+      \verb https://www.electronjs.org/docs/latest
+      \endverb
+    \endentry
     \entry{gartner2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
@@ -214,6 +246,41 @@
       \endverb
       \verb{url}
       \verb https://www.mozilla.org/en-US/firefox/browsers/browser-history/
+      \endverb
+    \endentry
+    \entry{osenv}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0147898d585a8f751fc545ac4889d9c9}{%
+           family={Schlueter},
+           familyi={S\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0147898d585a8f751fc545ac4889d9c9}
+      \strng{fullhash}{0147898d585a8f751fc545ac4889d9c9}
+      \strng{bibnamehash}{0147898d585a8f751fc545ac4889d9c9}
+      \strng{authorbibnamehash}{0147898d585a8f751fc545ac4889d9c9}
+      \strng{authornamehash}{0147898d585a8f751fc545ac4889d9c9}
+      \strng{authorfullhash}{0147898d585a8f751fc545ac4889d9c9}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{osenv}
+      \field{urlday}{14}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/package/osenv
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/package/osenv
       \endverb
     \endentry
     \entry{statista2021}{misc}{}

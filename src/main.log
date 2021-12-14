@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  14 DEC 2021 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  14 DEC 2021 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,45 +439,68 @@ File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-ar
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png  used on input line 22.
 (pdftex.def)             Requested size: 360.0pt x 145.59831pt.
-[3]) [4 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron.tex [5]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-desktop.tex [6]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-web.tex
+[3]) [4 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron.tex [5]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png, id=27, 1003.75pt x 745.78625pt>
+File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png Graphic file (type png)
+<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>
+Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png  used on input line 38.
+(pdftex.def)             Requested size: 288.0011pt x 213.98514pt.
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png, id=28, 1003.75pt x 745.78625pt>
+File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png Graphic file (type png)
+<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png>
+Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png  used on input line 46.
+(pdftex.def)             Requested size: 288.0011pt x 213.98514pt.
+ [6 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-desktop.tex [7 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-web.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png, id=30, 1003.75pt x 745.78625pt>
-File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png Graphic file (type png)
-<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>
-Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png  used on input line 11.
-(pdftex.def)             Requested size: 288.0011pt x 213.98514pt.
-[7 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>]) [8] [9] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
+[8]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-solution.tex
+
+Package xr Warning: 
+No file main.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+) [9] [10] [11] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 Overfull \hbox (3.65088pt too wide) in paragraph at lines 4--4
  [][] []\OT1/cmr/m/n/10.95 A sim-pli-fied rep-re-sen-ta-tion of Elec-tron's ar-chi-tec-ture. (Jensen, 
+ []
+
+
+Overfull \hbox (9.03467pt too wide) in paragraph at lines 6--6
+ [][] []\OT1/cmr/m/n/10.95 Number of in-ter-net users in the US from 2010 to 2025. (Statista, 
+ []
+
+
+Overfull \hbox (0.63962pt too wide) in paragraph at lines 8--8
+ [][] []\OT1/cmr/m/n/10.95 Average in-ter-net con-nec-tion speed in the US 2007-2017. (Aka- 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [10] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
+ [12] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10547 strings out of 481239
- 194441 string characters out of 5920376
- 912174 words of memory out of 5000000
- 25704 multiletter control sequences out of 15000+600000
+ 10567 strings out of 481239
+ 195367 string characters out of 5920376
+ 912307 words of memory out of 5000000
+ 25721 multiletter control sequences out of 15000+600000
  537855 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,6n,61p,867b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (10 pages, 184672 bytes).
+Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (12 pages, 241175 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
