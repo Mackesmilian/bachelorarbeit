@@ -3,10 +3,13 @@
 
 % Preamble
 \documentclass[11pt]{article}
-%\addbibresource{../main.bib}
 \usepackage{graphicx}
+\usepackage{xr}
 \usepackage[english]{babel}
-\usepackage[nottoc]{tocbibind}
+\usepackage[style=apa]{biblatex}
+\usepackage{float}
+\addbibresource{main.bib}
+\usepackage{csquotes}
 \graphicspath{ {/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/} }
 \title{
         {Development and Deployment of Web Applications as Installable Desktop Applications Using
@@ -37,6 +40,7 @@
     \input{why-use-electron-desktop.tex}
 
     \subsubsection{Web Applications}\label{subsubsec:web-applications}
+    \input{why-use-electron-web.tex}
 
     \subsubsection{Electron as a Solution}\label{subsubsec:electron-as-solution}
 
@@ -57,8 +61,8 @@
     \subsection{Results}\label{subsec:results}
 
     \subsection{Vaadin as an Alternative to Electron}\label{subsec:vaadin-electron}
-    \bibliographystyle{apa-good}
-    \bibliography{main}
+    \pagebreak
+    \printbibliography
     \pagebreak
     \listoffigures
 

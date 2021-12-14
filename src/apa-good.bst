@@ -73,6 +73,7 @@ ENTRY
     title
     type
     url
+    urldate
     volume
     year
   }

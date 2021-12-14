@@ -1,2 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces A simplyfied representation of Electron's architecture.\cite {jensen2017}}}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces A simplified representation of Electron's architecture. \parencite {jensen2017}}}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Number of internet users from 2010 to 2025. \parencite {statista2021}}}{7}%
