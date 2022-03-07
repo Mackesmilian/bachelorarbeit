@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  3 JAN 2022 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  7 MAR 2022 13:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,7 +464,26 @@ No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-[9]) [10] [11] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
+[9]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method.tex
+
+Package xr Warning: 
+No file main.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method-project-outline.tex
+
+Package xr Warning: 
+No file main.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+[10]
+Overfull \hbox (1.28964pt too wide) in paragraph at lines 24--26
+ [] \OT1/cmr/m/n/10.95 The fourth view is sim-i-lar to the cus-tomers view but rep-re-sents an overview
+ []
+
+) [11] [12] [13] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 Overfull \hbox (3.65088pt too wide) in paragraph at lines 4--4
  [][] []\OT1/cmr/m/n/10.95 A sim-pli-fied rep-re-sen-ta-tion of Elec-tron's ar-chi-tec-ture. (Jensen, 
  []
@@ -483,24 +502,24 @@ Overfull \hbox (0.63962pt too wide) in paragraph at lines 8--8
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [12] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
+ [14] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10569 strings out of 481239
- 195389 string characters out of 5920376
- 912315 words of memory out of 5000000
- 25723 multiletter control sequences out of 15000+600000
+ 10585 strings out of 481239
+ 195987 string characters out of 5920376
+ 912455 words of memory out of 5000000
+ 25733 multiletter control sequences out of 15000+600000
  537855 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,6n,61p,867b,4720s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (12 pages, 241289 bytes).
+Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (14 pages, 244581 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

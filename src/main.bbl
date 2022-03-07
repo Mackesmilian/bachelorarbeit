@@ -318,6 +318,71 @@
       \verb https://bit.ly/3yq6LkE
       \endverb
     \endentry
+    \entry{vaadinDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acd6f26aafee957632b63a697ef6fb1a}{%
+           family={{Vaadin Ltd}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{fullhash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{bibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authorbibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authornamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authorfullhash}{acd6f26aafee957632b63a697ef6fb1a}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{flow}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vaadin.com/docs/latest/flow/overview
+      \endverb
+      \verb{url}
+      \verb https://vaadin.com/docs/latest/flow/overview
+      \endverb
+    \endentry
+    \entry{VaishnaviVijayKuechler}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=63a1dd1cb5067b2f42d5d5af1f6a5c62}{%
+           family={Vaishnavi},
+           familyi={V\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98ce501383fc5598191234efc08cce40}{%
+           family={Kuechler},
+           familyi={K\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{fullhash}{75992fe06e784ce128712e2f327238a8}
+      \strng{bibnamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authorbibnamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authornamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authorfullhash}{75992fe06e784ce128712e2f327238a8}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Association for Information Systems}
+      \field{month}{01}
+      \field{title}{Design Science Research in Information Systems}
+      \field{year}{2004}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

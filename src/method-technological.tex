@@ -1,0 +1,14 @@
+\externaldocument{main.tex}
+The application can be split into three distinct parts:
+\begin{itemize}
+    \item The back-end API Used to fetch and save data.
+    \item The front-end part using Angular\parencite{angularDocs}.
+    \item The Electron part used to deploy the application and to offer offline functionality.
+  \end{itemize}
+The back-end uses a MongoDB database. The decision to choose MongoDB was taken because of the use
+case: A time keeping application needs to be highly flexible.
+Projects, Customers and the general company structure can change over time, necessitating 
+a different database structure. 
+MongoDB being a No-SQL database based on a JSON-like document structure as opposed 
+to a relational database with a strictly defined structure. 
+Such flexibility would greatly increase the future proofing of such an application.\paragraph{}

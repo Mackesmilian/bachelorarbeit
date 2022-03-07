@@ -2584,6 +2584,8 @@
     <bcf:citekey order="23">jacobs2005</bcf:citekey>
     <bcf:citekey order="24">osenv</bcf:citekey>
     <bcf:citekey order="25">electronDocs</bcf:citekey>
+    <bcf:citekey order="26">VaishnaviVijayKuechler</bcf:citekey>
+    <bcf:citekey order="27">vaadinDocs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
