@@ -153,6 +153,72 @@
       \verb https://bit.ly/3lZb8xV
       \endverb
     \endentry
+    \entry{angularDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Angular}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://angular.io/docs
+      \endverb
+      \verb{url}
+      \verb https://angular.io/docs
+      \endverb
+    \endentry
+    \entry{angularMaterialDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Angular Material}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://material.angular.io/
+      \endverb
+      \verb{url}
+      \verb https://material.angular.io/
+      \endverb
+    \endentry
     \entry{jacobs2005}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b80d1bfe1073c84df91f09ef969458cf}{%
@@ -216,6 +282,38 @@
       \verb https://bit.ly/3EPy0r1
       \endverb
     \endentry
+    \entry{mongoDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ad43b4c617def33deb8f50973cbf20d1}{%
+           family={{MongoDB, Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad43b4c617def33deb8f50973cbf20d1}
+      \strng{fullhash}{ad43b4c617def33deb8f50973cbf20d1}
+      \strng{bibnamehash}{ad43b4c617def33deb8f50973cbf20d1}
+      \strng{authorbibnamehash}{ad43b4c617def33deb8f50973cbf20d1}
+      \strng{authornamehash}{ad43b4c617def33deb8f50973cbf20d1}
+      \strng{authorfullhash}{ad43b4c617def33deb8f50973cbf20d1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MongoDB}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.mongodb.com/
+      \endverb
+      \verb{url}
+      \verb https://docs.mongodb.com/
+      \endverb
+    \endentry
     \entry{mozilla2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=24707b006eaf5e53e63d51d5c8c867f9}{%
@@ -246,6 +344,38 @@
       \endverb
       \verb{url}
       \verb https://www.mozilla.org/en-US/firefox/browsers/browser-history/
+      \endverb
+    \endentry
+    \entry{flaskDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d01ee405d3fb6a5deae10272b3f6c673}{%
+           family={{Pallets Project}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \strng{fullhash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \strng{bibnamehash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \strng{authorbibnamehash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \strng{authornamehash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \strng{authorfullhash}{d01ee405d3fb6a5deae10272b3f6c673}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flask}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/2.0.x/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/2.0.x/
       \endverb
     \endentry
     \entry{osenv}{misc}{}
@@ -317,6 +447,71 @@
       \verb{url}
       \verb https://bit.ly/3yq6LkE
       \endverb
+    \endentry
+    \entry{vaadinDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acd6f26aafee957632b63a697ef6fb1a}{%
+           family={{Vaadin Ltd}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{fullhash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{bibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authorbibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authornamehash}{acd6f26aafee957632b63a697ef6fb1a}
+      \strng{authorfullhash}{acd6f26aafee957632b63a697ef6fb1a}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{flow}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vaadin.com/docs/latest/flow/overview
+      \endverb
+      \verb{url}
+      \verb https://vaadin.com/docs/latest/flow/overview
+      \endverb
+    \endentry
+    \entry{VaishnaviVijayKuechler}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=63a1dd1cb5067b2f42d5d5af1f6a5c62}{%
+           family={Vaishnavi},
+           familyi={V\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98ce501383fc5598191234efc08cce40}{%
+           family={Kuechler},
+           familyi={K\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{fullhash}{75992fe06e784ce128712e2f327238a8}
+      \strng{bibnamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authorbibnamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authornamehash}{75992fe06e784ce128712e2f327238a8}
+      \strng{authorfullhash}{75992fe06e784ce128712e2f327238a8}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Association for Information Systems}
+      \field{month}{01}
+      \field{title}{Design Science Research in Information Systems}
+      \field{year}{2004}
     \endentry
   \enddatalist
 \endrefsection

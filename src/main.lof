@@ -6,3 +6,9 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Number of internet users in the US from 2010 to 2025. \parencite {statista2021}}}{6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}}}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.}}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.}}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.}}{15}%
