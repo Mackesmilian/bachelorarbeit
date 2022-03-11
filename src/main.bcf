@@ -2586,6 +2586,11 @@
     <bcf:citekey order="25">electronDocs</bcf:citekey>
     <bcf:citekey order="26">VaishnaviVijayKuechler</bcf:citekey>
     <bcf:citekey order="27">vaadinDocs</bcf:citekey>
+    <bcf:citekey order="28">angularDocs</bcf:citekey>
+    <bcf:citekey order="29">mongoDocs</bcf:citekey>
+    <bcf:citekey order="30">flaskDocs</bcf:citekey>
+    <bcf:citekey order="31">angularDocs</bcf:citekey>
+    <bcf:citekey order="32">angularMaterialDocs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
