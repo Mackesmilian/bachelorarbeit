@@ -8,6 +8,8 @@
 \usepackage[english]{babel}
 \usepackage[style=apa]{biblatex}
 \usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
 \addbibresource{main.bib}
 \usepackage{csquotes}
 \graphicspath{ {/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/} }
@@ -18,6 +20,31 @@
 }
 \author{Maximilian Martin Wolf}
 \date{30 October 2021}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 % Document
 \begin{document}
 
@@ -53,9 +80,9 @@
     \input{method-technological.tex}
 
     \subsection{Developing with Electron}\label{subsec:developing-with-electron}
-
-
-    \subsubsection{Development Workflow with Electron}\label{subsubsec:dev-workflow}
+    \input{developing-with-electron.tex}
+    \subsubsection{Creating an Electron Application}\label{subsubsec:dev-workflow}
+    \input{developing-with-electron-creation.tex}
 
     \subsubsection{Finished Project}\label{subsubsec:dev-project}
 

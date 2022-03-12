@@ -83,9 +83,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Developing with Electron}{16}%
+\contentsline {subsection}{\numberline {2.2}Developing with Electron}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Development Workflow with Electron}{16}%
+\contentsline {paragraph}{}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Creating an Electron Application}{16}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Finished Project}{16}%
 \defcounter {refsection}{0}\relax 

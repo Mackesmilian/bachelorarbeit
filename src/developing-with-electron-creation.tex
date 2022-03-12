@@ -1,0 +1,18 @@
+As with any framework, installation comes first.
+Electron can be simply installed using npm, the node package manager: \parencite{npm}
+\begin{lstlisting}
+    npm install -g electron
+\end{lstlisting}
+This installs Electron as a global dependency. 
+The next step is to create a project directory and a package.json file for the Electron configuration, among other things. 
+The entry point for any Electron application is a JavaScript file. 
+In this specific case it is named app.js:
+\begin{lstlisting}
+{
+    "name": "pze",
+    "version": "1.0.0",
+    "main": "app.js"
+}
+\end{lstlisting}
+Note that the name property on line two is an abbreviation of the German term for this application:
+Projektzeiterfassung, meaning project time keeping and abbreviated to PZE.

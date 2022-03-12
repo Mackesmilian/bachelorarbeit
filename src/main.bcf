@@ -2591,6 +2591,7 @@
     <bcf:citekey order="30">flaskDocs</bcf:citekey>
     <bcf:citekey order="31">angularDocs</bcf:citekey>
     <bcf:citekey order="32">angularMaterialDocs</bcf:citekey>
+    <bcf:citekey order="33">npm</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
