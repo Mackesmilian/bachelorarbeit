@@ -86,6 +86,71 @@
       \verb https://bit.ly/31PSvFV
       \endverb
     \endentry
+    \entry{namespaceError}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e9659d61c5544ba9ee9720e0f6a94c4}{%
+           family={{Ch3shireDev}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \strng{fullhash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \strng{bibnamehash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \strng{authorbibnamehash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \strng{authornamehash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \strng{authorfullhash}{6e9659d61c5544ba9ee9720e0f6a94c4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Namespace 'Electron.CrossProcessExports' has no exported member 'Remote'. Number 71}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ThorstenHans/ngx-electron/issues/71
+      \endverb
+      \verb{url}
+      \verb https://github.com/ThorstenHans/ngx-electron/issues/71
+      \endverb
+    \endentry
+    \entry{electron14Blog}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
+           family={{Electron Framework}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{fullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{bibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electron 14.0.0}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronjs.org/blog/electron-14-0#removed-remote-module
+      \endverb
+      \verb{url}
+      \verb https://www.electronjs.org/blog/electron-14-0#removed-remote-module
+      \endverb
+    \endentry
     \entry{electronDocs}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
@@ -98,11 +163,12 @@
       \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
       \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
       \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \field{extraname}{2}
       \field{sortinit}{E}
       \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{osenv}
@@ -217,6 +283,41 @@
       \endverb
       \verb{url}
       \verb https://material.angular.io/
+      \endverb
+    \endentry
+    \entry{ngxElectron}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9adca5694b73cbb35f124925eacc61f9}{%
+           family={Hans},
+           familyi={H\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9adca5694b73cbb35f124925eacc61f9}
+      \strng{fullhash}{9adca5694b73cbb35f124925eacc61f9}
+      \strng{bibnamehash}{9adca5694b73cbb35f124925eacc61f9}
+      \strng{authorbibnamehash}{9adca5694b73cbb35f124925eacc61f9}
+      \strng{authornamehash}{9adca5694b73cbb35f124925eacc61f9}
+      \strng{authorfullhash}{9adca5694b73cbb35f124925eacc61f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ngx-electron}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/ThorstenHans/ngx-electron
+      \endverb
+      \verb{url}
+      \verb https://github.com/ThorstenHans/ngx-electron
       \endverb
     \endentry
     \entry{jacobs2005}{article}{}
@@ -376,6 +477,38 @@
       \endverb
       \verb{url}
       \verb https://docs.npmjs.com/about-npm
+      \endverb
+    \endentry
+    \entry{nodeDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=263642944f6c498301458458c276f5f3}{%
+           family={{OpenJS Foundation}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{263642944f6c498301458458c276f5f3}
+      \strng{fullhash}{263642944f6c498301458458c276f5f3}
+      \strng{bibnamehash}{263642944f6c498301458458c276f5f3}
+      \strng{authorbibnamehash}{263642944f6c498301458458c276f5f3}
+      \strng{authornamehash}{263642944f6c498301458458c276f5f3}
+      \strng{authorfullhash}{263642944f6c498301458458c276f5f3}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Node.js}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nodejs.org/api/documentation.html
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/api/documentation.html
       \endverb
     \endentry
     \entry{flaskDocs}{misc}{}

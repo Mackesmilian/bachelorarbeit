@@ -1,3 +1,4 @@
+\externaldocument{main.tex}
 As with any framework, installation comes first.
 Electron can be simply installed using npm, the node package manager: \parencite{npm}
 \begin{lstlisting}
@@ -15,4 +16,55 @@ In this specific case it is named app.js:
 }
 \end{lstlisting}
 Note that the name property on line two is an abbreviation of the German term for this application:
-Projektzeiterfassung, meaning project time keeping and abbreviated to PZE.
+Projektzeiterfassung, meaning project time keeping and abbreviated to PZE.\paragraph{}
+As mentioned the starting point for any Electron application is a JavaScript file. 
+This file (in this case app.js) is responsible for loading all required parts of the Electron application 
+and any windows that it should display.
+See the following example for creating a browser window in electron:
+\begin{lstlisting}
+const { app, BrowserWindow, ipcMain } = require("electron");
+let mainWindow;
+function createWindow() {
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+  });
+  mainWindow.loadURL(
+    url.format({
+      pathname: path.join(__dirname, `/dist/pze/index.html`),
+      protocol: "file:",
+      slashes: true,
+    })
+  );
+  mainWindow.on("closed", function () {
+    mainWindow = null;
+  });
+}
+
+app.on("ready", createWindow);
+\end{lstlisting}
+After importing the necessary parts of Electron one needs to create a window. 
+As the "ready" event is fired once the app has finished loading one can listen to said event
+and then call the createWindow() function to create a window and more importantly load a file to display.
+On line three a window is created with the specified dimensions, 800 by 600 pixels in this case. 
+Electron's approach to window sizing means that a developer can specify different window sizes for each
+window directly in code rather than having to specify such properties in a configuration file, as is 
+the case with NW.js. \parencite{jensen2017}
+Furthermore, parameters for the initial positioning of the window can also be passed to the BrowserWindow constructor.\paragraph{}
+The next step is to load a URL.
+This URL needs to point to an HTML file containing the content to display. 
+In this case the output file of the Angular part of this application is loaded. 
+Finally, after the window has been closed the variable will be set to null.\paragraph{}
+However, not every platform behaves the same when an application is closed by clicking the X symbol in the top 
+right or left corners. 
+As opposed to Windows and Linux, MacOS does not quit an application once a window is closed. 
+To check for the platform so the correct behaviour can be implemented one can use the process.platform \parencite{nodeDocs} property
+provided by node.js:
+\begin{lstlisting}
+app.on("window-all-closed", function () {
+    if (process.platform !== "darwin") app.quit();
+});
+\end{lstlisting}
+As shown the code listens for the "window-all-closed" event and if the user's operating system is anything but MacOS 
+the app quits. 
+These steps form the basic scaffolding of an Electron project and can now be run with the electron command.
