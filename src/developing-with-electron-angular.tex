@@ -132,3 +132,24 @@ electron.ipcRenderer.send('getProjects');
 \end{lstlisting}
 The advantage would be greater future-proofing because the use of a newer Electron stable release would
 be possible.
+Ultimately which solution is chosen is at the developer's discretion. 
+For this proof-of-concept the ngx-electron module will be used.\paragraph{}
+In figure six the flow of data is pictured when the application communicates with
+the back-end.
+One main goal of this application is to take advantage of Electron's arguably biggest asset over 
+traditional web applications: offline functionality.
+Due to the Electron back-end being developed with Node.js one can access all features available to Node.js 
+which in a traditional application would not be accessible on the client's machine.
+This means one can use the fact that Electron allows to read and write to the User's file system. 
+It is therefore very trivial to implement storage of data on each client's machine.  
+See the following sequence diagram for an overview of how data to back up is fetched from the API 
+on startup.
+\begin{figure}[H]
+  \centering
+  \label{fig:pze-sequence-diagram-electron}
+  \caption{Electron Startup Sequence Diagram:
+  A sequence diagram illustrating how data is fetched on startup}
+  \includegraphics[width=1\textwidth]{pze-sequence-diagram-electron}
+\end{figure}
+As pictured the API is queried if the application is online.
+This is checked via the window.navigator.onLine property 
