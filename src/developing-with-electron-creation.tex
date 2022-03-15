@@ -1,14 +1,14 @@
 \externaldocument{main.tex}
 As with any framework, installation comes first.
 Electron can be simply installed using npm, the node package manager: \parencite{npm}
-\begin{lstlisting}
+\begin{lstlisting}[caption=Installing Electron via npm]
     npm install -g electron
 \end{lstlisting}
 This installs Electron as a global dependency. 
 The next step is to create a project directory and a package.json file for the Electron configuration, among other things. 
 The entry point for any Electron application is a JavaScript file. 
 In this specific case it is named app.js:
-\begin{lstlisting}
+\begin{lstlisting}[caption=Minimal package.json for an Electron application]
 {
     "name": "pze",
     "version": "1.0.0",
@@ -21,7 +21,7 @@ As mentioned the starting point for any Electron application is a JavaScript fil
 This file (in this case app.js) is responsible for loading all required parts of the Electron application 
 and any windows that it should display.
 See the following example for creating a browser window in electron:
-\begin{lstlisting}
+\begin{lstlisting}[caption=Creating a window in Electron on ready event]
 const { app, BrowserWindow, ipcMain } = require("electron");
 let mainWindow;
 function createWindow() {
@@ -60,7 +60,7 @@ right or left corners.
 As opposed to Windows and Linux, MacOS does not quit an application once a window is closed. 
 To check for the platform so the correct behaviour can be implemented one can use the process.platform \parencite{nodeDocs} property
 provided by node.js:
-\begin{lstlisting}
+\begin{lstlisting}[caption=Quitting and terminating an Electron application]
 app.on("window-all-closed", function () {
     if (process.platform !== "darwin") app.quit();
 });

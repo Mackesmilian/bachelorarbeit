@@ -12,7 +12,12 @@
 \usepackage{xcolor}
 \usepackage[T1]{fontenc}
 \usepackage[margin=3.5cm]{geometry}
+\usepackage[acronym]{glossaries}
+\usepackage{caption}
+\captionsetup{justification=raggedright,singlelinecheck=false, format=plain, font=small, labelfont=bf}
 \addbibresource{main.bib}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage{csquotes}
 \graphicspath{ {/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/} }
 \title{
@@ -47,6 +52,9 @@
 }
 
 \lstset{style=mystyle}
+\renewcommand*\glspostdescription{\dotfill}
+\makenoidxglossaries
+\newacronym{saas}{SaaS}{Software as as Service}
 % Document
 \begin{document}
 
@@ -74,21 +82,22 @@
     \subsubsection{Electron as a Solution}\label{subsubsec:electron-as-solution}
     \input{why-use-electron-solution.tex}
 
-    \section{Method}\label{sec:method}
+    \section{Developing with Electron}\label{sec:method}
     \input{method.tex}
-
-    \subsection{Artifact Outline}\label{subsubsec:dev-requirements}
     \input{method-project-outline.tex}
     \input{method-technological.tex}
-
-    \subsection{Developing with Electron}\label{subsec:developing-with-electron}
     \input{developing-with-electron.tex}
-    \subsubsection{Creating an Electron Application}\label{subsubsec:developing-with-electron-creation}
+    \subsection{Creating an Electron Application}\label{subsec:developing-with-electron-creation}
     \input{developing-with-electron-creation.tex}
-    \subsubsection{Electron and Angular}\label{subsubsec:developing-with-electron-angular}
-    \input{developing-with-electron-angular.tex}
-    \subsubsection{Development Workflow with Electron}\label{subsubsec:dev-workflow}
-
+    \subsection{Electron and Angular}\label{subsec:developing-with-electron-angular}
+    \input{developing-with-electron-angular-intro.tex}
+    \clearpage
+    \subsubsection{Configuring Angular and Electron}\label{subsubsec:developing-with-electron-angular-config}
+    \input{developing-with-electron-angular-config.tex}
+    \clearpage
+    \subsubsection{Communication between Angular and Electron}\label{subsubsec:developing-with-electron-angular-communication}
+    \input{developing-with-electron-angular-communication.tex}
+    \clearpage
     \subsubsection{Finished Project}\label{subsubsec:dev-project}
 
 
@@ -97,10 +106,16 @@
     \subsection{Results}\label{subsec:results}
 
     \subsection{Vaadin as an Alternative to Electron}\label{subsec:vaadin-electron}
-    \pagebreak
-    \printbibliography
-    \pagebreak
+    \clearpage
+    \printnoidxglossary[type=\acronymtype]
+    \clearpage
     \listoffigures
+    \clearpage
+    \lstlistoflistings
+    \clearpage
+    \printbibliography
+    
+    
 
 
 \end{document}

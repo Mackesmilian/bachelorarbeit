@@ -1,16 +1,18 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces A simplified representation of Electron's architecture. \parencite {jensen2017}}}{3}%
+\contentsline {figure}{\numberline {1}{\ignorespaces A simplified representation of Electron's architecture. \parencite {jensen2017}\relax }}{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Number of internet users in the US from 2010 to 2025. \parencite {statista2021}}}{6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Number of internet users in the US from 2010 to 2025. \parencite {statista2021}\relax }}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}}}{7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}\relax }}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.}}{12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.\relax }}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.}}{13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.\relax }}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.}}{14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.\relax }}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Electron Startup Sequence Diagram: A sequence diagram illustrating how data is fetched on startup}}{20}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{23}%

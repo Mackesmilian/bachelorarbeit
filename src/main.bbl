@@ -383,6 +383,38 @@
       \verb https://bit.ly/3EPy0r1
       \endverb
     \endentry
+    \entry{onLineMdn}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eace3534eb86e51f9a1db37427425ce9}{%
+           family={{MDN Web Docs}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{fullhash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{bibnamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authorbibnamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authornamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authorfullhash}{eace3534eb86e51f9a1db37427425ce9}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Navigator.onLine}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine
+      \endverb
+    \endentry
     \entry{mongoDocs}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ad43b4c617def33deb8f50973cbf20d1}{%

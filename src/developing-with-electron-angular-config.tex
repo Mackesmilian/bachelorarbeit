@@ -1,0 +1,27 @@
+\externaldocument{main.tex} 
+After taking the steps to create and scaffold the Angular application, some configuration work needs to be done.
+In the angular.json file the output directory needs to be set to the previously specified directory where 
+Electron looks for the index.html file:
+\begin{lstlisting}[caption=Angular configuration for Electron]
+"options": {
+    "outputPath": "dist/pze",
+},
+\end{lstlisting}
+Another modification is required for the start scripts in the package.json file where the angular application has to be built 
+and then the electron application:
+\begin{lstlisting}[caption=Start scripts for Electron and Angular]
+"scripts": {
+        "start": "ng build --base-href ./ && electron .",
+},
+\end{lstlisting}
+With this npm start can be executed and first ng build will be called, building the angular application after which the 
+Electron start script will be called and the Electron application will be started.\paragraph{}
+Now the app is up and running. 
+An Electron instance will start with the Angular application running inside it. 
+To speed up the development process, the Angular front-end should be developed separately. 
+Not only does this lead to looser integration of Angular and Electron but when saving edits made to Angular 
+developers need to restart the Electron build process which takes considerably longer than just reloading 
+the Angular app. 
+This means during development - and as long as the Electron part is not needed - developers should start the 
+application with ng serve as changes will be adopted almost instantly whereas with Electron one needs to run the 
+entire start script again.\paragraph{}

@@ -119,9 +119,9 @@ on startup.
 \begin{figure}[H]
   \centering
   \label{fig:pze-sequence-diagram-electron}
+  \includegraphics[width=1\textwidth]{pze-sequence-diagram-electron}
   \caption{Fetch Backup Data Sequence Diagram:
   A sequence diagram illustrating how data is fetched on startup}
-  \includegraphics[width=1\textwidth]{pze-sequence-diagram-electron}
 \end{figure}
 As pictured the API is queried if the application is online.
 This is checked via the window.navigator.onLine property.
@@ -158,4 +158,9 @@ client machine to the API:
 \end{figure}
 After the process outlined in figure seven, the file system is checked for new data. 
 If said data exists it is then sent to the API via HTTP POST and persisted to the database.
-Once this has finished the local copy of the now persisted data is deleted to avoid duplicates. 
+Once this has finished the local copy of the now persisted data is deleted to avoid duplicates.\paragraph{}
+Having outlined how the startup procedure for this application looks like, there is still the question of 
+how one can send events and pass data between Angular and Electron.
+As explained at the beginning of this chapter, ngx-electron's ElectronService will be used to send events 
+to Electron from Angular. 
+The following example describes how data is fetched from  
