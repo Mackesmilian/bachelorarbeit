@@ -118,7 +118,7 @@
       \verb https://github.com/ThorstenHans/ngx-electron/issues/71
       \endverb
     \endentry
-    \entry{electron14Blog}{misc}{}
+    \entry{electronDocsDist}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
            family={{Electron Framework}},
@@ -134,6 +134,39 @@
       \field{sortinit}{E}
       \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
       \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Application Distribution}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronjs.org/docs/latest/tutorial/application-distribution
+      \endverb
+      \verb{url}
+      \verb https://www.electronjs.org/docs/latest/tutorial/application-distribution
+      \endverb
+    \endentry
+    \entry{electron14Blog}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
+           family={{Electron Framework}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{fullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{bibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -163,10 +196,10 @@
       \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
       \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
       \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{E}
       \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -283,6 +316,105 @@
       \endverb
       \verb{url}
       \verb https://material.angular.io/
+      \endverb
+    \endentry
+    \entry{angularDocsZone}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NgZone}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://angular.io/guide/zone
+      \endverb
+      \verb{url}
+      \verb https://angular.io/guide/zone
+      \endverb
+    \endentry
+    \entry{angularDocsObs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{4}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using observables to pass values}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://angular.io/guide/observables
+      \endverb
+      \verb{url}
+      \verb https://angular.io/guide/observables
+      \endverb
+    \endentry
+    \entry{zoneJs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc.}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradate}{5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zone.js}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.npmjs.com/package/zone.js
+      \endverb
+      \verb{url}
+      \verb https://www.npmjs.com/package/zone.js
       \endverb
     \endentry
     \entry{ngxElectron}{misc}{}
@@ -413,6 +545,38 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine
+      \endverb
+    \endentry
+    \entry{microsoftTls}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thread Local Storage (TLS)}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/en-us/cpp/parallel/thread-local-storage-tls?view=msvc-170
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/en-us/cpp/parallel/thread-local-storage-tls?view=msvc-170
       \endverb
     \endentry
     \entry{mongoDocs}{misc}{}

@@ -7,12 +7,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}\relax }}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.\relax }}{12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.\relax }}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.\relax }}{13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.\relax }}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.\relax }}{14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.\relax }}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{21}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{23}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{22}%

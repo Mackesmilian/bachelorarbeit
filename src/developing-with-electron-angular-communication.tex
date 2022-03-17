@@ -90,12 +90,12 @@ While said release was last updated (at the time of writing) on February 2nd 202
 a deprecated feature and being locked into a specific version of any framework can pose a worry to 
 many developers. \paragraph{}
 As an alternative, developers can skip the use of ngx-electron and directly import the required electron module.
-\begin{lstlisting}[caption=Sending an event with ngx-electron]
+\begin{lstlisting}[caption=Requiring Electron in Angular]
 const electron = (<any>window).require('electron');
 \end{lstlisting}
 Sending an event through the ipcRenderer would be very similar to the code sample above which is using 
 ngx-electron:
-\begin{lstlisting}
+\begin{lstlisting}[caption=Sending an event through ipcRenderer]
 // Using ElectronService from ngx-electron
 this.electronService.ipcRenderer.send('getProjects');
 
@@ -163,4 +163,94 @@ Having outlined how the startup procedure for this application looks like, there
 how one can send events and pass data between Angular and Electron.
 As explained at the beginning of this chapter, ngx-electron's ElectronService will be used to send events 
 to Electron from Angular. 
-The following example describes how data is fetched from  
+The process of fetching data from the Electron back-end is very similar between each entity so 
+in order to illustrate the workflow see the following example of fetching customers.
+\begin{lstlisting}[caption=Sending an event using ElectronService]
+  this.electronService.ipcRenderer.send('getCustomers');
+\end{lstlisting}
+The code above emits an event called getCustomers. 
+This event will be sent through the ipcRenderer EventEmitter and Electron will now listen 
+for it on ipcMain.
+\begin{lstlisting}[caption=Listening for an event]
+  ipcMain.on("getCustomers", (event) => {
+});
+\end{lstlisting}
+This listener will execute the callback function once it intercepts the getCustomers event. 
+Within the callback function the data is read from the file system:
+\begin{lstlisting}[caption=Reading data in event callback function]
+  ipcMain.on("getCustomers", (event) => {
+    var pathName = path.join(__dirname, `/files/pze/customers.json`);
+    fs.readFile(pathName, (error, data) => {
+      if (error) {
+        console.error(err);
+        event.reply("getCustomersReponse", null);
+      } else {
+        let customers = JSON.parse(data);
+        let newCustomers = getNewObjects("customers_new.json");
+        newCustomers.forEach(function (newCustomer) {
+        customers.push(newCustomer);
+      });
+      console.log(customers);
+      event.reply("getCustomersReponse", customers);
+    }
+  });
+});
+\end{lstlisting}
+Note the use of event.reply(). 
+There are a couple advantages to using event.reply(). 
+Firstly, it is asynchronous. 
+This means it won't block any other code from executing and one can therefore expect better performance 
+than replying with a synchronous message.
+Another advantage is the fact that event.reply() automatically handles messages that originate from
+different frames to the main frame. 
+That is to say should the original event be fired from an iframe, this helper method will 
+handle such a reply in the correct manner. \parencite{electronDocs}\paragraph{}
+Currently, the application can send an event to Electron and Electron will respond with 
+the requested data. 
+However as of now there is no way to intercept the response and therefore data.
+To achieve this there are multiple different approaches to arrive at a solution. 
+One solution is to adhere to the observer pattern, a software design pattern which is used 
+for event handling and asynchronous programming while handling multiple values.
+In this pattern an object maintains a list of observers which are then notified by the 
+subject when an event (or rather state change occurs).
+Observables are widely used in Angular for the above reasons. \parencite{angularDocsObs}\paragraph{}
+In order to create such an Observable which notifies its subscribers when a change occurs (in this 
+case when an event from Electron is emitted), one should use the Observable<T> constructor provided
+by Angular.
+\begin{lstlisting}[caption=Creating an Observable for ipcRenderer]
+fetchAllCustomers(): Observable<Customer[]> {
+  return new Observable<Customer[]>((observer) => {
+    this.electronService.ipcRenderer.on('getCustomersReponse', (event, arg) => {
+      this.ngZone.run(() => {
+        observer.next(arg);
+      });
+    });
+    electron.ipcRenderer.send('getCustomers');
+  });
+}
+\end{lstlisting}
+The first step is to create an Observable, with the type parameter being an array of customers.
+Following that is the call to ipcRenderer via ElectronService where a listener is created for 
+the getCustomersReponse event which is the reply sent in the Electron back-end.
+At the end the actual trigger event for fetching the data is sent. \paragraph{}
+One important consideration is the use of NgZone. 
+Zones in this context refer to persisting execution context across different asynchronous tasks.
+These zones can be compared to the so-called \acrfull{tls}.
+\acrshort{tls} is a method of assigning locations for data specific to a thread. \parencite{microsoftTls}
+This means data is not stored globally but privately available for each thread.
+Analogous to \acrshort{tls} Zones exist in JavaScript virtual machines to encapsulate 
+change detection into separate execution contexts. \parencite{angularDocsZone}\paragraph{}
+The underlying functionality is based on the Zone.js which creates said execution contexts.
+These contexts can persist asynchronous operations and Zone.js also provides lifecycle hooks 
+for these asynchronous operations. \parencite{zoneJs}\paragraph{}
+Angular builds on top of Zone.js with the provided NgZone service.
+This service creates a zone named angular which then triggers change events when a
+synchronous or asynchronous method is executed and when there is no scheduled microTask.
+This separation of contexts into zones creates a problem for detecting event changes which 
+happen outside of the angular zone, such is the case with Electron.
+To overcome this, NgZone service offers the run() method. 
+By calling this run method the code is brought back into Angular's zone and executed there 
+which means change detection is carried out on all operations inside that run function. \parencite{angularDocsZone}\paragraph{}
+These are the necessary steps to communicate between Angular and Electron. 
+With this implementation it is trivial to pass data to Electron and return data if necessary. 
+Having implemented all necessary functionality it is now time to package and deploy the Electron application.

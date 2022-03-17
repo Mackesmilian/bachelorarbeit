@@ -11,7 +11,7 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage[T1]{fontenc}
-\usepackage[margin=3.5cm]{geometry}
+\usepackage[margin=3cm]{geometry}
 \usepackage[acronym]{glossaries}
 \usepackage{caption}
 \captionsetup{justification=raggedright,singlelinecheck=false, format=plain, font=small, labelfont=bf}
@@ -55,6 +55,7 @@
 \renewcommand*\glspostdescription{\dotfill}
 \makenoidxglossaries
 \newacronym{saas}{SaaS}{Software as as Service}
+\newacronym{tls}{TLS}{Thread Local Storage}
 % Document
 \begin{document}
 
@@ -98,8 +99,8 @@
     \subsubsection{Communication between Angular and Electron}\label{subsubsec:developing-with-electron-angular-communication}
     \input{developing-with-electron-angular-communication.tex}
     \clearpage
-    \subsubsection{Finished Project}\label{subsubsec:dev-project}
-
+    \subsubsection{Deploying an Electron Application}\label{subsubsec:dev-project}
+    \input{developing-with-electron-angular-deployment.tex}
 
     \section{Analysis}\label{sec:analysis}
 
