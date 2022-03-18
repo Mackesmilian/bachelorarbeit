@@ -16,3 +16,5 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{20}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Installer for the recently created \acrshort {deb} package\relax }}{30}%

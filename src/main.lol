@@ -28,3 +28,25 @@
 \contentsline {lstlisting}{\numberline {14}Reading data in event callback function}{23}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {15}Creating an Observable for ipcRenderer}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {16}Menu template for Electron.}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {17}Enabling the custom menu.}{26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {18}Enabling the custom menu.}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {19}Installing Electron Packager}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {20}Product name property in package.json}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {21}Command for using Electron Packager}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {22}Command for Linux build specified in package.json}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {23}Commands for Windows and MacOs builds specified in package.json}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {24}Installation of electron-installer-debian}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {25}Configuration for debian package: debian.json}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {26}Configuration for debian package: debian.json}{30}%

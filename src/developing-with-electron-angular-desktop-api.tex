@@ -1,0 +1,80 @@
+\externaldocument{main.tex}
+Having described one of the advantages of Electron over web applications, namely 
+extensive offline functionality, there are a lot more aspects of desktop applications
+which one can access through Electron.
+In this section it will be described how one can create context menus and take advantage 
+of key bindings through Electron.\paragraph{}
+Without specifying any menu items Electron displays basic menu options which are familiar from 
+web browsers such as an edit menu with "undo" and "redo" options or a view menu in which developer
+tools can be toggled among other things.
+In order to create custom menu items, one must define a template in JSON form:
+\begin{lstlisting}[caption=Menu template for Electron.]
+const menuTemplate = [
+    {
+        label: "File",
+        submenu: [
+        {
+            label: "Fetch Data",
+            click: checkIfOnlineAndFetch,
+        },
+        {
+            label: "Synchronise new Data",
+            click: checkIfOnlineAndSync,
+        },
+        {
+            label: "Toggle Offline Mode",
+            click: enableOfflineMode,
+        },
+      ],
+    },
+];
+\end{lstlisting}
+This example creates a menu item with the label "File" and three sub menus, each of which are given 
+a click handler. 
+To enable this menu template Electron's Menu class offer a method named buildFromTemplate():
+\begin{lstlisting}[caption=Enabling the custom menu.]
+const Menu = require("electron");
+const menu = Menu.buildFromTemplate(menuTemplate);
+Menu.setApplicationMenu(menu);
+\end{lstlisting}
+The above code creates a menu from the previously defined template and then sets the now created menu
+as the current application menu. 
+In this case three options were added, first the option for users to manually fetch data from the API,
+then the option to manually synchronise newly created, locally saved objects and finally the option
+to toggle offline mode, should users wish to do so.\paragraph{}
+Another useful Electron feature is the fact that key bindings can be freely chosen. 
+Of course, one can also implement key bindings and combinations with regular web applications.
+However, one needs to take two factors into consideration:
+Key press events are handled differently across browsers and certain combinations can only be 
+overridden with workarounds and arguably should not be implemented. \parencite{mdnKeyboardEvent}
+For example, the \lstinline[columns=fixed]{control + N} combination is universally understood to create 
+a new of something, whatever the application in question implements.
+With web application, one is constrained by already existing browser key combinations, such as \lstinline[columns=fixed]{control + N} or 
+\lstinline[columns=fixed]{control + T}.
+For example in chrome, such an override is not possible:
+\blockquote{In Chrome4, certain control key combinations [Cntr-N, Cntrl-W, Cntr-T] have been reserved for browser 
+usage only and can no longer be intercepted by the client side JavaScript 
+in the web page.}
+\parencite{chromeIssueTrackerV4}
+In addition to having to take different browsers and their versions into consideration one could also argue
+that by overriding bindings such as \lstinline[columns=fixed]{control + N} one would disregard usability
+conventions because users would most likely expect \lstinline[columns=fixed]{control + N} to open a new 
+browser window and not something website-specific. 
+As far as desktop applications go, however, one does not have to take such points into consideration.
+In this example a listener on \lstinline[columns=fixed]{control + N} was added to open an edit dialog:
+\begin{lstlisting}[caption=Enabling the custom menu.]
+globalShortcut.register("CommandOrControl+N", () => {
+    mainWindow.webContents.send("openDialog");
+});
+\end{lstlisting}
+This creates a global shortcut for the \lstinline[columns=fixed]{control + N} or \lstinline[columns=fixed]{command + N} 
+(for MacOs) combination. 
+Once it is registered an event is emitted which can be intercepted in the front-end. 
+Another way of adding keyboard shortcuts is to register them locally. 
+That is to say these shortcuts will only trigger when the application is focused. \parencite{electronKeyboardShortcuts}
+Furthermore, keyboard shortcuts can be added as so-called accelerators which means the combination will
+be displayed alongside the respective option in the application menu. \paragraph{}
+These are just some points Electron provides in terms of native Desktop APIs. 
+Developers can leverage much more features such as notifications, Drag \& Drop, and device access among other things.
+Additionally, some platform-specific APIs such as Linux launcher actions or recent documents for Windows and MacOs
+exists as well.

@@ -2603,7 +2603,14 @@
     <bcf:citekey order="42">angularDocsZone</bcf:citekey>
     <bcf:citekey order="43">zoneJs</bcf:citekey>
     <bcf:citekey order="44">angularDocsZone</bcf:citekey>
-    <bcf:citekey order="45">electronDocsDist</bcf:citekey>
+    <bcf:citekey order="45">mdnKeyboardEvent</bcf:citekey>
+    <bcf:citekey order="46">chromeIssueTrackerV4</bcf:citekey>
+    <bcf:citekey order="47">electronKeyboardShortcuts</bcf:citekey>
+    <bcf:citekey order="48">electronDocsDist</bcf:citekey>
+    <bcf:citekey order="49">electronPackager</bcf:citekey>
+    <bcf:citekey order="50">electronPackager</bcf:citekey>
+    <bcf:citekey order="51">electronDocsDist</bcf:citekey>
+    <bcf:citekey order="52">winElectronAppStr</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

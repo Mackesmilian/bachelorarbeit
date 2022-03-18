@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  17 MAR 2022 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  18 MAR 2022 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -619,21 +619,21 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -685,8 +685,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.bbl)
-Package biblatex Info: Reference section=0 on input line 60.
-Package biblatex Info: Reference segment=0 on input line 60.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
 \c@lstlisting=\count446
 
 *geometry* driver: auto-detecting
@@ -868,56 +868,71 @@ Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src
  [21]
 Overfull \vbox (20.94406pt too high) has occurred while \output is active []
 
- [22 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png>] [23] [24]) [25] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-deployment.tex
+ [22 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png>] [23] [24]) [25] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-desktop-api.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-) [26
+[26
 
-]
+]) [27] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-deployment.tex
+
+Package xr Warning: 
+No file main.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+[28
+
+] [29]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png, id=115, 1049.9225pt x 644.4075pt>
+File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png Graphic file (type png)
+<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>
+Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png  used on input line 109.
+(pdftex.def)             Requested size: 354.86412pt x 217.79771pt.
+) [30 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>] [31]
 Using TeX to sort glossary entries---this may take a while
-[27
+[32
 
 ] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [28
+ [33
 
 ] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lol)
 \tf@lol=\write6
 \openout6 = `main.lol'.
 
- [29
+ [34
 
 ]
-Overfull \hbox (24.58589pt too wide) in paragraph at lines 118--118
+Overfull \hbox (24.58589pt too wide) in paragraph at lines 123--123
 [][]\T1/phv/m/n/10.95 Hans, T. (2019). Ngx-electron. Re-trieved March 13, 2022, from $\T1/cmr/m/n/10.95 https : / / github . com / ThorstenHans /
  []
 
-[30
+[35
 
-] [31] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
+] [36] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21181 strings out of 481239
- 378758 string characters out of 5920376
- 1211148 words of memory out of 5000000
- 36108 multiletter control sequences out of 15000+600000
+ 21278 strings out of 481239
+ 381034 string characters out of 5920376
+ 1215334 words of memory out of 5000000
+ 36202 multiletter control sequences out of 15000+600000
  570455 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,7n,107p,1060b,4846s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (31 pages, 2104287 bytes).
+Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (36 pages, 2149673 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 160 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

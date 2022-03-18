@@ -184,7 +184,7 @@
       \verb https://www.electronjs.org/blog/electron-14-0#removed-remote-module
       \endverb
     \endentry
-    \entry{electronDocs}{misc}{}
+    \entry{electronKeyboardShortcuts}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
            family={{Electron Framework}},
@@ -200,6 +200,39 @@
       \field{sortinit}{E}
       \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
       \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Keyboard Shortcuts}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronjs.org/docs/latest/tutorial/keyboard-shortcuts
+      \endverb
+      \verb{url}
+      \verb https://www.electronjs.org/docs/latest/tutorial/keyboard-shortcuts
+      \endverb
+    \endentry
+    \entry{electronDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
+           family={{Electron Framework}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{fullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{bibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorbibnamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authornamehash}{58d58e70694e0d70abaaa1e2840513a2}
+      \strng{authorfullhash}{58d58e70694e0d70abaaa1e2840513a2}
+      \field{extraname}{4}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradate}{4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -252,6 +285,74 @@
       \verb https://bit.ly/3lZb8xV
       \endverb
     \endentry
+    \entry{winElectronAppStr}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=254c1e12704185f0f1a07d33b39761bf}{%
+           family={Georgiev},
+           familyi={G\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{254c1e12704185f0f1a07d33b39761bf}
+      \strng{fullhash}{254c1e12704185f0f1a07d33b39761bf}
+      \strng{bibnamehash}{254c1e12704185f0f1a07d33b39761bf}
+      \strng{authorbibnamehash}{254c1e12704185f0f1a07d33b39761bf}
+      \strng{authornamehash}{254c1e12704185f0f1a07d33b39761bf}
+      \strng{authorfullhash}{254c1e12704185f0f1a07d33b39761bf}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Set product name, file description copyright on Windows. Number 30}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/electron/electron-packager/issues/30
+      \endverb
+      \verb{url}
+      \verb https://github.com/electron/electron-packager/issues/30
+      \endverb
+    \endentry
+    \entry{chromeIssueTrackerV4}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
+           family={{Google, Inc}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{fullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{bibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
+      \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Issue 33056: Ctrl keys: Ctrl-N, Ctrl-T and Ctrl-W no longer available to client side JavaScript in Chrome4 (available in FF3.x, IE7/8 and Chrome3)}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://crbug.com/33056
+      \endverb
+      \verb{url}
+      \verb https://crbug.com/33056
+      \endverb
+    \endentry
     \entry{angularDocs}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
@@ -264,7 +365,7 @@
       \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradate}{1}
@@ -297,7 +398,7 @@
       \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradate}{2}
@@ -330,7 +431,7 @@
       \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradate}{3}
@@ -363,7 +464,7 @@
       \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradate}{4}
@@ -396,7 +497,7 @@
       \strng{authorbibnamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authornamehash}{62c14bd6e5c324febe2195177f1a1573}
       \strng{authorfullhash}{62c14bd6e5c324febe2195177f1a1573}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{G}
       \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{extradate}{5}
@@ -515,6 +616,41 @@
       \verb https://bit.ly/3EPy0r1
       \endverb
     \endentry
+    \entry{electronPackager}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c394cc476184cbce7a417f95a77300bf}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c394cc476184cbce7a417f95a77300bf}
+      \strng{fullhash}{c394cc476184cbce7a417f95a77300bf}
+      \strng{bibnamehash}{c394cc476184cbce7a417f95a77300bf}
+      \strng{authorbibnamehash}{c394cc476184cbce7a417f95a77300bf}
+      \strng{authornamehash}{c394cc476184cbce7a417f95a77300bf}
+      \strng{authorfullhash}{c394cc476184cbce7a417f95a77300bf}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electron Packager}
+      \field{urlday}{17}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/electron/electron-packager
+      \endverb
+      \verb{url}
+      \verb https://github.com/electron/electron-packager
+      \endverb
+    \endentry
     \entry{onLineMdn}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eace3534eb86e51f9a1db37427425ce9}{%
@@ -527,11 +663,11 @@
       \strng{authorbibnamehash}{eace3534eb86e51f9a1db37427425ce9}
       \strng{authornamehash}{eace3534eb86e51f9a1db37427425ce9}
       \strng{authorfullhash}{eace3534eb86e51f9a1db37427425ce9}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Navigator.onLine}
@@ -545,6 +681,38 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine
+      \endverb
+    \endentry
+    \entry{mdnKeyboardEvent}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eace3534eb86e51f9a1db37427425ce9}{%
+           family={{MDN Web Docs}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{fullhash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{bibnamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authorbibnamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authornamehash}{eace3534eb86e51f9a1db37427425ce9}
+      \strng{authorfullhash}{eace3534eb86e51f9a1db37427425ce9}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{KeyboardEvent}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent
       \endverb
     \endentry
     \entry{microsoftTls}{misc}{}
