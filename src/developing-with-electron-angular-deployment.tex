@@ -62,10 +62,8 @@ This process can now be repeated for each other target platform, in this case Wi
 Note however that a MacOS distribution can only be signed when built on a MacOS platform. \parencite{electronDocsDist}
 \begin{lstlisting}[caption=Commands for Windows and MacOs builds specified in package.json]
 "package-mac": "electron-packager . pze --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
-"package-win": "electron-packager . pze --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CommUnity --version-string.FileDescription=CommUnity --version-string.ProductName=\"PZE\"",
+"package-win": "electron-packager . pze --overwrite --asar=true --platform=win32 --arch=x64 --prune=true --out=release-builds",
 \end{lstlisting}
-As seen above the windows build needs some additional parameters which define the company name and description. 
-If those are not set the application will simply appear as "Electron" in Windows. \parencite{winElectronAppStr}\paragraph{}
 After having packaged the application it is then time to create the installers. 
 The first example will detail the creation of a \acrshort{deb} package. 
 For this, the Electron Installer Debian is required. 
@@ -109,3 +107,30 @@ This will result in a \acrshort{deb} package which can be installed on Linux:
     \includegraphics[width=0.8\textwidth]{deb-package}
     \caption{Installer for the recently created \acrshort{deb} package}
 \end{figure}
+To create a windows executable developers can choose from a number of different tools such as 
+electron-installer-windows.
+After installing Electron Installer Windows through \acrshort{npm} as a development dependency one 
+can then add the script for creating the executable:
+\begin{lstlisting}[caption=Script for creating a windows executable.]
+"create-win-installer": "electron-installer-windows --src release-builds/pze-win32-x64/ --dest release-builds/",
+\end{lstlisting}
+The parameters are analogous to those defined in the \lstinline[columns=fixed]{create-debian-installer} script.
+Before execution however, one modification the the app.js file needs to be made.
+More specifically, the destination of the index.html file has to be defined differently for the build process to 
+work correctly. 
+Currently the location of index.html is passed to the loadURL function as follows:
+\begin{lstlisting}[caption=Passing index.html location to loadURL().]
+mainWindow.loadURL(
+    url.format({
+        pathname: path.join(__dirname, `/dist/pze/index.html`),
+        protocol: "file:",
+        slashes: true,
+    })
+);
+\end{lstlisting}
+For the build tool to be able to correctly interpret the \_\_dirname property one needs 
+to change it as such:
+\begin{lstlisting}[caption=Passing index.html location to loadURL().]
+mainWindow.loadURL(`file://${__dirname}/dist/pze/index.html`)
+\end{lstlisting}
+This means the created desktop application can then correctly load the index.html.

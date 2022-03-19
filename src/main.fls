@@ -291,10 +291,10 @@ INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method-technologic
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr8c.tfm
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/helvetic/phvr8c.vf
-INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
-INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
-INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png
@@ -332,6 +332,8 @@ INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-el
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-results.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-results.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx

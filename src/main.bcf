@@ -2610,7 +2610,6 @@
     <bcf:citekey order="49">electronPackager</bcf:citekey>
     <bcf:citekey order="50">electronPackager</bcf:citekey>
     <bcf:citekey order="51">electronDocsDist</bcf:citekey>
-    <bcf:citekey order="52">winElectronAppStr</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

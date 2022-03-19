@@ -285,41 +285,6 @@
       \verb https://bit.ly/3lZb8xV
       \endverb
     \endentry
-    \entry{winElectronAppStr}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=254c1e12704185f0f1a07d33b39761bf}{%
-           family={Georgiev},
-           familyi={G\bibinitperiod},
-           given={Ivo},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{254c1e12704185f0f1a07d33b39761bf}
-      \strng{fullhash}{254c1e12704185f0f1a07d33b39761bf}
-      \strng{bibnamehash}{254c1e12704185f0f1a07d33b39761bf}
-      \strng{authorbibnamehash}{254c1e12704185f0f1a07d33b39761bf}
-      \strng{authornamehash}{254c1e12704185f0f1a07d33b39761bf}
-      \strng{authorfullhash}{254c1e12704185f0f1a07d33b39761bf}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Set product name, file description copyright on Windows. Number 30}
-      \field{urlday}{17}
-      \field{urlmonth}{3}
-      \field{urlyear}{2022}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://github.com/electron/electron-packager/issues/30
-      \endverb
-      \verb{url}
-      \verb https://github.com/electron/electron-packager/issues/30
-      \endverb
-    \endentry
     \entry{chromeIssueTrackerV4}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=62c14bd6e5c324febe2195177f1a1573}{%
