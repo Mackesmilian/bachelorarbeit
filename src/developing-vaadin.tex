@@ -1,0 +1,74 @@
+\externaldocument{main.tex}
+Having outlined what steps are needed to create, implement, and deploy and Electron application
+with Angular a look at how the same thing can be achieved with Vaadin will be taken.
+As Vaadin is a Java Framework it is compatible and recommended to use with Spring. \parencite{vaadinDocs}
+The initial step would be to include a dependency to Vaadin with a build tool of choice. 
+This case study will use Vaadin 14 a proven \acrfull{lts} release with the newest being Vaadin 23 \acrshort{lts}.\paragraph{}
+To create an application layout in Vaadin a parent layout class is required:
+\begin{lstlisting}[caption=Creating a MainLayout.java class]
+@Theme(value = Lumo.class, variant = Lumo.LIGHT)
+public class MainLayout extends AppLayout {
+    
+    public MainLayout() {
+        DrawerToggle toggle = new DrawerToggle();
+    
+        H1 title = new H1("PZE");
+        title.getStyle()
+                    .set("font-size", "var(--lumo-font-size-l)")
+                    .set("margin", "0");
+    
+        addToDrawer(getTabs());
+        addToNavbar(toggle, title);
+    }
+    private Tabs getTabs() {
+    .
+    .
+    .
+    }
+    
+    private Tab createTab(String viewName,Class<? extends Component> navigationTarget) {
+    .
+    .
+    .
+    }
+    
+    }
+\end{lstlisting}
+For sake of brevity the details of \lstinline[columns=fixed]{getTabs()} and \lstinline[columns=fixed]{createTab()} 
+have been omitted. 
+The class annotation \lstinline[columns=fixed]{@Theme} sets the application theme with Lumo being a Vaadin provided theme.
+The \lstinline[columns=fixed]{MainLayout} class extends \lstinline[columns=fixed]{AppLayout} which is a Vaadin provided
+layout and serves the purpose of having a view with a drawer for navigation on the left of the screen.  
+Said drawer is created in the constructor with each tab representing a view.\paragraph{}
+In order to create a Vaadin view one must create a view class. 
+\begin{lstlisting}[caption=Creating a Vaadin view]
+@Route(value="customer", layout = MainLayout.class)
+public class CustomerView extends VerticalLayout {
+    
+    private Grid<Customer> grid = new Grid<>();
+    private CustomerRepository repository;
+    
+    public CustomerView(@Autowired CustomerRepository repository) {
+        this.repository = repository;
+        setSizeFull();
+        createGrid();            
+        add(grid);
+    }
+    
+    private void createGrid() {
+        grid.setSizeFull();
+        grid.addColumn(Customer::get_id).setHeader("Name");
+        grid.addColumn(Customer::getAddress).setHeader("Address");
+        grid.setItems(repository.findAll());
+    }
+}
+\end{lstlisting}
+This represents a basic implementation of a working view with a grid showing instances of an entity, in this case Customer.
+After defining the view rout in the class annotation as well as setting the parent layout to the previously defined 
+MainLayout the View class extends VerticalLayout which is as the name implies a Layout with vertical ordering. 
+Other types of layouts are HorizontalLayout, Div, and SplitLayout.\parencite{vaadinDocs}\paragraph{}
+The first field of the view is a Grid object which again is a Vaadin provided component. 
+This grid is bound to a type and as seen in \lstinline[columns=fixed]{createGrid()} method columns can be added with
+a getter for each property of the object. 
+Loading the items to display is as trivial as calling the \lstinline[columns=fixed]{grid.setItems()} method which
+accepts a collection of the previously specified class. 

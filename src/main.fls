@@ -282,6 +282,11 @@ INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-w
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-web.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-solution.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-solution.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/alternatives.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/alternatives.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method-project-outline.tex
@@ -332,8 +337,12 @@ INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-el
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-vaadin.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-vaadin.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-results.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-results.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/conclusion.tex
+INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/conclusion.tex
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 INPUT /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx

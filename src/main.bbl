@@ -518,6 +518,50 @@
       \verb https://github.com/ThorstenHans/ngx-electron
       \endverb
     \endentry
+    \entry{taufan2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f94d5492827d1074a32963d61902b735}{%
+           family={Iskandar},
+           familyi={I\bibinitperiod},
+           given={Taufan\bibnamedelima Fadhilah},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eab294d07dc086918a8f11d33f12f8e}{%
+           family={Lubis},
+           familyi={L\bibinitperiod},
+           given={Muharman},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=684cf936c5b1c39d893c808eaeb0a9c3}{%
+           family={Kusumasari},
+           familyi={K\bibinitperiod},
+           given={Tien\bibnamedelima Fabrianti},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b099cc964724c9dd44b703e7eb52671}{%
+           family={Lubis},
+           familyi={L\bibinitperiod},
+           given={Arif\bibnamedelima Ridho},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5de31d558423bdc96312360560da8d2}
+      \strng{fullhash}{938db923be2fff8f2a84f04012967a7d}
+      \strng{bibnamehash}{938db923be2fff8f2a84f04012967a7d}
+      \strng{authorbibnamehash}{938db923be2fff8f2a84f04012967a7d}
+      \strng{authornamehash}{f5de31d558423bdc96312360560da8d2}
+      \strng{authorfullhash}{938db923be2fff8f2a84f04012967a7d}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOP Conference Series: Materials Science and Engineering}
+      \field{title}{Comparison between client-side and server-side rendering in the web development}
+      \field{year}{2020}
+    \endentry
     \entry{jacobs2005}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b80d1bfe1073c84df91f09ef969458cf}{%
@@ -872,6 +916,61 @@
       \verb https://flask.palletsprojects.com/en/2.0.x/
       \endverb
     \endentry
+    \entry{caseStudy}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=306f73791e107dd9b83d45ee22e6b523}{%
+           family={Runeson},
+           familyi={R\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d1752e9463ffc1043c0939de72a9097}{%
+           family={Höst},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a099bbffe62b1427e3ea14d9ad9f469}{%
+           family={Rainer},
+           familyi={R\bibinitperiod},
+           given={Austen},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8eecf1f137629fc30fb7258aa4b03ffc}{%
+           family={Regnell},
+           familyi={R\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {A John Wiley \& Sons, Inc., Publication}%
+      }
+      \strng{namehash}{1bed68590671bd6079ce9d5907bf954d}
+      \strng{fullhash}{0179fac4387f1f7edf85bf6e8d3e0de0}
+      \strng{bibnamehash}{0179fac4387f1f7edf85bf6e8d3e0de0}
+      \strng{authorbibnamehash}{0179fac4387f1f7edf85bf6e8d3e0de0}
+      \strng{authornamehash}{1bed68590671bd6079ce9d5907bf954d}
+      \strng{authorfullhash}{0179fac4387f1f7edf85bf6e8d3e0de0}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{3}
+      \field{title}{CASE STUDY RESEARCH IN SOFTWARE ENGINEERING Guidelines and Examples}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wiley.com/en-us/Case+Study+Research+in+Software+Engineering%3A+Guidelines+and+Examples-p-9781118181003
+      \endverb
+      \verb{url}
+      \verb https://www.wiley.com/en-us/Case+Study+Research+in+Software+Engineering%3A+Guidelines+and+Examples-p-9781118181003
+      \endverb
+    \endentry
     \entry{osenv}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0147898d585a8f751fc545ac4889d9c9}{%
@@ -973,39 +1072,6 @@
       \verb{url}
       \verb https://vaadin.com/docs/latest/flow/overview
       \endverb
-    \endentry
-    \entry{VaishnaviVijayKuechler}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=63a1dd1cb5067b2f42d5d5af1f6a5c62}{%
-           family={Vaishnavi},
-           familyi={V\bibinitperiod},
-           given={Vijay},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=98ce501383fc5598191234efc08cce40}{%
-           family={Kuechler},
-           familyi={K\bibinitperiod},
-           given={B},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{75992fe06e784ce128712e2f327238a8}
-      \strng{fullhash}{75992fe06e784ce128712e2f327238a8}
-      \strng{bibnamehash}{75992fe06e784ce128712e2f327238a8}
-      \strng{authorbibnamehash}{75992fe06e784ce128712e2f327238a8}
-      \strng{authornamehash}{75992fe06e784ce128712e2f327238a8}
-      \strng{authorfullhash}{75992fe06e784ce128712e2f327238a8}
-      \field{sortinit}{V}
-      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Association for Information Systems}
-      \field{month}{01}
-      \field{title}{Design Science Research in Information Systems}
-      \field{year}{2004}
     \endentry
   \enddatalist
 \endrefsection

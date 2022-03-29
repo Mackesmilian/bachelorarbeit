@@ -6,8 +6,18 @@ The development of this \acrshort{poc} has shown that desktop applications do ha
 Use cases such as native context menus can be leveraged by developers to provide functionality a traditional 
 web application simply cannot.\paragraph{}
 As for this specific artifact the efficacy of using Electron and not a web-only application has to be questioned.
-The possibilities provided by desktop applications and in this case Electron could not be fully leveraged 
+The possibilities provided by desktop applications and in this case Electron could not be fully utilised  
 because of the nature of this application.
 Due to this tool being company specific and only used by employees during active work hours the implemented offline 
 functionality only offers limited benefit over a web-only application as one can make the assumption
 that an actively working employee has access to an internet connection.\paragraph{}
+Additionally, the combination of Electron and Angular has caused some difficulties in development.
+Different dependencies and their versions can break the program as was the case with ngx-electron for instance.
+Furthermore, integrating the Angular specific event loop into the Electron event loop causes some odd behaviours
+and even bugs which are difficult to solve for developers. 
+As an example the key bindings worked flawlessly as far as Electron goes.
+That is to say events were fired and intercepted correctly, however Angular displayed some inexplicable bugs 
+such as not fetching required data when the purpose of the key binding was to open a dialog.\paragraph{}
+However, the development of this application has brought some valuable knowledge into the company Comm-Unity.
+This knowledge can be used for future projects which fit the desktop environment better, be it 
+from a feature standpoint or a usability standpoint.
