@@ -21,15 +21,11 @@ public class MainLayout extends AppLayout {
         addToNavbar(toggle, title);
     }
     private Tabs getTabs() {
-    .
-    .
-    .
+    ...
     }
     
     private Tab createTab(String viewName,Class<? extends Component> navigationTarget) {
-    .
-    .
-    .
+    ...
     }
     
     }
@@ -66,9 +62,11 @@ public class CustomerView extends VerticalLayout {
 This represents a basic implementation of a working view with a grid showing instances of an entity, in this case Customer.
 After defining the view rout in the class annotation as well as setting the parent layout to the previously defined 
 MainLayout the View class extends VerticalLayout which is as the name implies a Layout with vertical ordering. 
-Other types of layouts are HorizontalLayout, Div, and SplitLayout.\parencite{vaadinDocs}\paragraph{}
+Other types of layouts are HorizontalLayout, Div, and SplitLayout. \parencite{vaadinDocs}\paragraph{}
 The first field of the view is a Grid object which again is a Vaadin provided component. 
 This grid is bound to a type and as seen in \lstinline[columns=fixed]{createGrid()} method columns can be added with
 a getter for each property of the object. 
 Loading the items to display is as trivial as calling the \lstinline[columns=fixed]{grid.setItems()} method which
-accepts a collection of the previously specified class. 
+accepts a collection of the previously specified class.\paragraph{}
+Having created a working example mimicking the behaviour of the Electron application the following chapter will 
+focus on comparing these implementations and answering the research questions asked.

@@ -118,6 +118,38 @@
       \verb https://github.com/ThorstenHans/ngx-electron/issues/71
       \endverb
     \endentry
+    \entry{discordVulernabilities}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17fbb3fe8b2b8ade6e41aaa71f763ecd}{%
+           family={{cve.report}},
+           familyi={c\bibinitperiod}}}%
+      }
+      \strng{namehash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \strng{fullhash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \strng{bibnamehash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \strng{authorbibnamehash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \strng{authornamehash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \strng{authorfullhash}{17fbb3fe8b2b8ade6e41aaa71f763ecd}
+      \field{sortinit}{c}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Known Vulnerabilities for products from Discord}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cve.report/vendor/discord
+      \endverb
+      \verb{url}
+      \verb https://cve.report/vendor/discord
+      \endverb
+    \endentry
     \entry{electronDocsDist}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d58e70694e0d70abaaa1e2840513a2}{%
@@ -518,50 +550,6 @@
       \verb https://github.com/ThorstenHans/ngx-electron
       \endverb
     \endentry
-    \entry{taufan2020}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=f94d5492827d1074a32963d61902b735}{%
-           family={Iskandar},
-           familyi={I\bibinitperiod},
-           given={Taufan\bibnamedelima Fadhilah},
-           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0eab294d07dc086918a8f11d33f12f8e}{%
-           family={Lubis},
-           familyi={L\bibinitperiod},
-           given={Muharman},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=684cf936c5b1c39d893c808eaeb0a9c3}{%
-           family={Kusumasari},
-           familyi={K\bibinitperiod},
-           given={Tien\bibnamedelima Fabrianti},
-           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8b099cc964724c9dd44b703e7eb52671}{%
-           family={Lubis},
-           familyi={L\bibinitperiod},
-           given={Arif\bibnamedelima Ridho},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f5de31d558423bdc96312360560da8d2}
-      \strng{fullhash}{938db923be2fff8f2a84f04012967a7d}
-      \strng{bibnamehash}{938db923be2fff8f2a84f04012967a7d}
-      \strng{authorbibnamehash}{938db923be2fff8f2a84f04012967a7d}
-      \strng{authornamehash}{f5de31d558423bdc96312360560da8d2}
-      \strng{authorfullhash}{938db923be2fff8f2a84f04012967a7d}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IOP Conference Series: Materials Science and Engineering}
-      \field{title}{Comparison between client-side and server-side rendering in the web development}
-      \field{year}{2020}
-    \endentry
     \entry{jacobs2005}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b80d1bfe1073c84df91f09ef969458cf}{%
@@ -624,6 +612,44 @@
       \verb{url}
       \verb https://bit.ly/3EPy0r1
       \endverb
+    \endentry
+    \entry{backEndComparison}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5b6086a66dbba3245429a2bd61f56a94}{%
+           family={Kaluža},
+           familyi={K\bibinitperiod},
+           given={Marin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8f6af098abe0230ae2bfb89b8b7ae76}{%
+           family={Kalanj},
+           familyi={K\bibinitperiod},
+           given={Marijana},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4223bd47fe4ac02cd0ee4c5e39fb01a6}{%
+           family={Vukelić},
+           familyi={V\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{69e301af98e318f47db33a5cbbe91ad9}
+      \strng{fullhash}{b3150b32b21d0ec4a48779861c605b50}
+      \strng{bibnamehash}{b3150b32b21d0ec4a48779861c605b50}
+      \strng{authorbibnamehash}{b3150b32b21d0ec4a48779861c605b50}
+      \strng{authornamehash}{69e301af98e318f47db33a5cbbe91ad9}
+      \strng{authorfullhash}{b3150b32b21d0ec4a48779861c605b50}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zbornik Veleučilišta u Rijeci}
+      \field{title}{A Comparison of Back-End Frameworks for Web Application Development}
+      \field{year}{2019}
     \endentry
     \entry{electronPackager}{misc}{}
       \name{author}{1}{}{%
@@ -756,6 +782,43 @@
       \verb https://docs.microsoft.com/en-us/cpp/parallel/thread-local-storage-tls?view=msvc-170
       \endverb
     \endentry
+    \entry{frameworksEfficiency}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dea48a5a2d04a09e4f830d0f9b4fe2f8}{%
+           family={Mihalčin},
+           familyi={M\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Charles University Prague}%
+      }
+      \strng{namehash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \strng{fullhash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \strng{bibnamehash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \strng{authorbibnamehash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \strng{authornamehash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \strng{authorfullhash}{dea48a5a2d04a09e4f830d0f9b4fe2f8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{7}
+      \field{title}{Web Frameworks Comparison Concerning the Efficiency of Development}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wiley.com/en-us/Case+Study+Research+in+Software+Engineering%3A+Guidelines+and+Examples-p-9781118181003
+      \endverb
+      \verb{url}
+      \verb https://www.wiley.com/en-us/Case+Study+Research+in+Software+Engineering%3A+Guidelines+and+Examples-p-9781118181003
+      \endverb
+    \endentry
     \entry{mongoDocs}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ad43b4c617def33deb8f50973cbf20d1}{%
@@ -819,6 +882,32 @@
       \verb{url}
       \verb https://www.mozilla.org/en-US/firefox/browsers/browser-history/
       \endverb
+    \endentry
+    \entry{usabilityHeuristics}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Factors in Computing Systems}
+      \field{title}{Enhancing the Explanatory Power of Usability Heuristics}
+      \field{year}{1994}
     \endentry
     \entry{npm}{misc}{}
       \name{author}{1}{}{%
@@ -914,6 +1003,70 @@
       \endverb
       \verb{url}
       \verb https://flask.palletsprojects.com/en/2.0.x/
+      \endverb
+    \endentry
+    \entry{frameworksSecurity}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07e07b92b81d9910ec57b9791b44e244}{%
+           family={Peguero},
+           familyi={P\bibinitperiod},
+           given={Ksenia},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {The George Washington University}%
+      }
+      \strng{namehash}{07e07b92b81d9910ec57b9791b44e244}
+      \strng{fullhash}{07e07b92b81d9910ec57b9791b44e244}
+      \strng{bibnamehash}{07e07b92b81d9910ec57b9791b44e244}
+      \strng{authorbibnamehash}{07e07b92b81d9910ec57b9791b44e244}
+      \strng{authornamehash}{07e07b92b81d9910ec57b9791b44e244}
+      \strng{authorfullhash}{07e07b92b81d9910ec57b9791b44e244}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Impact of Frameworks on Security of JavaScript Applications}
+      \field{type}{phdthesis}
+      \field{year}{2021}
+    \endentry
+    \entry{ratingsFW}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e193a82ed00c66f5882e248435677ca7}{%
+           family={Raible},
+           familyi={R\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e193a82ed00c66f5882e248435677ca7}
+      \strng{fullhash}{e193a82ed00c66f5882e248435677ca7}
+      \strng{bibnamehash}{e193a82ed00c66f5882e248435677ca7}
+      \strng{authorbibnamehash}{e193a82ed00c66f5882e248435677ca7}
+      \strng{authornamehash}{e193a82ed00c66f5882e248435677ca7}
+      \strng{authorfullhash}{e193a82ed00c66f5882e248435677ca7}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How I Calculated Ratings for My JVM Web Frameworks Comparison}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2022}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://raibledesigns.com/rd/entry/how_i_calculated_ratings_for
+      \endverb
+      \verb{url}
+      \verb https://raibledesigns.com/rd/entry/how_i_calculated_ratings_for
       \endverb
     \endentry
     \entry{caseStudy}{book}{}
@@ -1039,38 +1192,6 @@
       \endverb
       \verb{url}
       \verb https://bit.ly/3yq6LkE
-      \endverb
-    \endentry
-    \entry{vaadinDocs}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=acd6f26aafee957632b63a697ef6fb1a}{%
-           family={{Vaadin Ltd}},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{acd6f26aafee957632b63a697ef6fb1a}
-      \strng{fullhash}{acd6f26aafee957632b63a697ef6fb1a}
-      \strng{bibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
-      \strng{authorbibnamehash}{acd6f26aafee957632b63a697ef6fb1a}
-      \strng{authornamehash}{acd6f26aafee957632b63a697ef6fb1a}
-      \strng{authorfullhash}{acd6f26aafee957632b63a697ef6fb1a}
-      \field{sortinit}{V}
-      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{flow}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2022}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://vaadin.com/docs/latest/flow/overview
-      \endverb
-      \verb{url}
-      \verb https://vaadin.com/docs/latest/flow/overview
       \endverb
     \endentry
   \enddatalist

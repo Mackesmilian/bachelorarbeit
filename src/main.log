@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  29 MAR 2022 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.11)  3 APR 2022 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -314,31 +314,42 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box45
+\beforetitleunit=\skip71
+\aftertitleunit=\skip72
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
+\ttl@toksa=\toks15
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count380
-\float@exts=\toks15
-\float@box=\box45
-\@float@everytoks=\toks16
-\@floatcapt=\box46
+\float@exts=\toks16
+\float@box=\box46
+\@float@everytoks=\toks17
+\@floatcapt=\box47
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count381
-\lst@gtempboxa=\box47
-\lst@token=\toks17
+\lst@gtempboxa=\box48
+\lst@token=\toks18
 \lst@length=\count382
-\lst@currlwidth=\dimen138
+\lst@currlwidth=\dimen143
 \lst@column=\count383
 \lst@pos=\count384
-\lst@lostspace=\dimen139
-\lst@width=\dimen140
+\lst@lostspace=\dimen144
+\lst@width=\dimen145
 \lst@newlines=\count385
 \lst@lineno=\count386
-\lst@maxwidth=\dimen141
+\lst@maxwidth=\dimen146
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count387
 \lst@skipnumbers=\count388
-\lst@framebox=\box48
+\lst@framebox=\box49
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
@@ -368,29 +379,29 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count389
 \Gm@cntv=\count390
 \c@Gm@tempcnt=\count391
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks18
+\Gm@bindingoffset=\dimen147
+\Gm@wd@mp=\dimen148
+\Gm@odd@mp=\dimen149
+\Gm@even@mp=\dimen150
+\Gm@layoutwidth=\dimen151
+\Gm@layoutheight=\dimen152
+\Gm@layouthoffset=\dimen153
+\Gm@layoutvoffset=\dimen154
+\Gm@dimlist=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2020/02/13 v4.45 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
 \XKV@depth=\count392
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks21
-\@glsmrest=\toks22
+\@glsmfirst=\toks22
+\@glsmrest=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
@@ -399,18 +410,18 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip71
+\@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen150
+\@emptytoks=\toks24
+\ex@=\dimen155
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen156
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
@@ -424,9 +435,9 @@ LaTeX Info: Redefining \overline on input line 389.
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box49
-\strutbox@=\box50
-\big@size=\dimen152
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen157
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count398
@@ -434,21 +445,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip21
 \c@parentequation=\count400
 \dspbrk@lvl=\count401
-\tag@help=\toks24
+\tag@help=\toks25
 \row@=\count402
 \column@=\count403
 \maxfields@=\count404
-\andhelp@=\toks25
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks26
-\multlinegap=\skip72
-\multlinetaggap=\skip73
-\mathdisplay@stack=\toks27
+\andhelp@=\toks26
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks27
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 ) (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
@@ -492,9 +503,9 @@ Package: fp-upn 1996/10/21
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks28
+\@dtl@toks=\toks29
 \@dtl@tmpcount=\count417
-\dtl@tmplength=\skip74
+\dtl@tmplength=\skip76
 \dtl@sortresult=\count418
 \@dtl@numgrpsepcount=\count419
 \@dtl@datatype=\count420
@@ -511,73 +522,73 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count424
-\@gls@tmpb=\toks29
-\gls@tmplen=\skip75
-\glskeylisttok=\toks30
-\glslabeltok=\toks31
-\glsshorttok=\toks32
-\glslongtok=\toks33
+\@gls@tmpb=\toks30
+\gls@tmplen=\skip77
+\glskeylisttok=\toks31
+\glslabeltok=\toks32
+\glsshorttok=\toks33
+\glslongtok=\toks34
  (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2020/02/13 v4.45 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2020/02/13 v4.45 (NLCT)
-\glslistdottedwidth=\skip76
+\glslistdottedwidth=\skip78
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2020/02/13 v4.45 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip77
-\LTright=\skip78
-\LTpre=\skip79
-\LTpost=\skip80
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
 \LTchunksize=\count425
-\LTcapwidth=\dimen159
-\LT@head=\box51
-\LT@firsthead=\box52
-\LT@foot=\box53
-\LT@lastfoot=\box54
+\LTcapwidth=\dimen164
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
 \LT@cols=\count426
 \LT@rows=\count427
 \c@LT@tables=\count428
 \c@LT@chunks=\count429
-\LT@p@ftn=\toks34
+\LT@p@ftn=\toks35
 )
-\glsdescwidth=\skip81
-\glspagelistwidth=\skip82
+\glsdescwidth=\skip83
+\glspagelistwidth=\skip84
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2020/02/13 v4.45 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
 \c@tracingst=\count430
-\ST@wd=\dimen160
-\ST@rightskip=\skip83
-\ST@leftskip=\skip84
-\ST@parfillskip=\skip85
-\ST@pageleft=\dimen161
-\ST@headht=\dimen162
-\ST@tailht=\dimen163
-\ST@pagesofar=\dimen164
-\ST@pboxht=\dimen165
-\ST@lineht=\dimen166
-\ST@prevht=\dimen167
-\ST@toadd=\dimen168
-\ST@dimen=\dimen169
-\ST@pbox=\box55
+\ST@wd=\dimen165
+\ST@rightskip=\skip85
+\ST@leftskip=\skip86
+\ST@parfillskip=\skip87
+\ST@pageleft=\dimen166
+\ST@headht=\dimen167
+\ST@tailht=\dimen168
+\ST@pagesofar=\dimen169
+\ST@pboxht=\dimen170
+\ST@lineht=\dimen171
+\ST@prevht=\dimen172
+\ST@toadd=\dimen173
+\ST@dimen=\dimen174
+\ST@pbox=\box56
 )) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2020/02/13 v4.45 (NLCT)
-\glstreeindent=\skip86
+\glstreeindent=\skip88
 )) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/01/03 v3.4h Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen170
-\captionmargin@=\dimen171
-\captionwidth=\dimen172
-\caption@tempdima=\dimen173
-\caption@indent=\dimen174
-\caption@parindent=\dimen175
-\caption@hangindent=\dimen176
+\captionmargin=\dimen175
+\captionmargin@=\dimen176
+\captionwidth=\dimen177
+\caption@tempdima=\dimen178
+\caption@indent=\dimen179
+\caption@parindent=\dimen180
+\caption@hangindent=\dimen181
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count431
@@ -599,7 +610,7 @@ Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 \csq@qlevel=\count436
 \csq@maxlvl=\count437
 \csq@tshold=\count438
-\csq@ltx@everypar=\toks35
+\csq@ltx@everypar=\toks36
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
@@ -615,44 +626,40 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count439
-\l__pdf_internal_box=\box56
-) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux
-
-LaTeX Warning: Label `subsec:developing-with-electron-angular' multiply defined.
-
-)
+\l__pdf_internal_box=\box57
+) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 69.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count440
-\scratchdimen=\dimen177
-\scratchbox=\box57
+\scratchdimen=\dimen182
+\scratchbox=\box58
 \nofMPsegments=\count441
 \nofMParguments=\count442
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks37
 \MPscratchCnt=\count443
-\MPscratchDim=\dimen178
+\MPscratchDim=\dimen183
 \MPnumerator=\count444
 \makeMPintoPDFobject=\count445
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -689,8 +696,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.bbl)
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 \c@lstlisting=\count446
 
 *geometry* driver: auto-detecting
@@ -743,9 +750,7 @@ File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-ar
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png  used on input line 20.
 (pdftex.def)             Requested size: 443.57848pt x 179.39981pt.
- [3 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>]) [4] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron.tex [5
-
-]
+ [3 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/electron-architecture.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron.tex [4] [5]
 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png, id=24, 1003.75pt x 745.78625pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>
@@ -756,46 +761,26 @@ File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-co
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png  used on input line 45.
 (pdftex.def)             Requested size: 354.86412pt x 263.6692pt.
- [6 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>]) [7 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png>] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-desktop.tex) [8
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-web.tex
+ [6 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/number-of-internet-users.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-desktop.tex [7 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/internet-connection-speed.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-web.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-) [9
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-solution.tex
+) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/why-use-electron-solution.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-
-Overfull \hbox (6.36488pt too wide) in paragraph at lines 10--13
- [] \T1/phv/m/n/10.95 Ad-di-tion-ally, the dis-ad-van-tage of hav-ing to con-sider dif-fer-ent browsers (and ver-sions thereof)
+[8]
+Overfull \hbox (6.36491pt too wide) in paragraph at lines 10--13
+[] [][] \T1/phv/m/n/10.95 Ad-di-tion-ally, the dis-ad-van-tage of hav-ing to con-sider dif-fer-ent browsers (and ver-sions thereof)
  []
 
-) [10
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/alternatives.tex
-
-Package xr Warning: 
-No file main.tex.aux
-LABELS NOT IMPORTED.
- on input line 1.
-
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png, id=44, 618.31pt x 94.3525pt>
-File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png Graphic file (type png)
-<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png>
-Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png  used on input line 15.
-(pdftex.def)             Requested size: 443.57848pt x 67.69186pt.
-) [11
-
- </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/server-side-flow.png>] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method.tex
+) [9] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method.tex
 
 Package xr Warning: 
 No file main.tex.aux
@@ -809,7 +794,7 @@ No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-[12
+[10
 
 ]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/method-technological.tex
 
@@ -822,24 +807,23 @@ LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png, id=52, 3639.5975pt x 2228.325pt>
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png, id=44, 3639.5975pt x 2228.325pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png  used on input line 27.
 (pdftex.def)             Requested size: 443.57848pt x 271.56964pt.
- [13]
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png, id=57, 3495.0575pt x 2147.02126pt>
+ [11] [12 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png>]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png, id=52, 3495.0575pt x 2147.02126pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png  used on input line 51.
 (pdftex.def)             Requested size: 443.57848pt x 272.4721pt.
- [14 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-class-diagram.png>]
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png, id=62, 6917.845pt x 4338.2075pt>
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png, id=53, 6917.845pt x 4338.2075pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png  used on input line 65.
 (pdftex.def)             Requested size: 443.57848pt x 278.15404pt.
- [15 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron.tex
+ [13 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-component-diagram.png>]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron.tex
 
 Package xr Warning: 
 No file main.tex.aux
@@ -856,58 +840,65 @@ LABELS NOT IMPORTED.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [16 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png>] [17]) [18] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-intro.tex
+) [14 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram.png>] [15]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-intro.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-) [19
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-config.tex
+) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-config.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-) [20
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-communication.tex
+[16]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-communication.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-[21
-
-] [22]
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png, id=91, 3651.6425pt x 3888.5275pt>
+[17] [18]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png, id=76, 3651.6425pt x 3888.5275pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png  used on input line 122.
 (pdftex.def)             Requested size: 443.57848pt x 472.29924pt.
- [23] [24 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png>]
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png, id=99, 3664.69125pt x 5049.86626pt>
+ [19] [20 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron.png>]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png, id=85, 3664.69125pt x 5049.86626pt>
 File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png Graphic file (type png)
 <use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png>
 Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png  used on input line 155.
 (pdftex.def)             Requested size: 443.57848pt x 611.19753pt.
- [25]
+ [21]
 Overfull \vbox (20.94406pt too high) has occurred while \output is active []
 
- [26 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png>] [27] [28]) [29] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-desktop-api.tex
+ [22 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/pze-sequence-diagram-electron-saveNew.png>] [23] [24]) [25] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-desktop-api.tex
 
 Package xr Warning: 
 No file main.tex.aux
 LABELS NOT IMPORTED.
  on input line 1.
 
-[30
+[26
 
-]) [31] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-deployment.tex
+]) (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-angular-deployment.tex
+
+Package xr Warning: 
+No file main.tex.aux
+LABELS NOT IMPORTED.
+ on input line 1.
+
+[27] [28]
+</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png, id=112, 1049.9225pt x 644.4075pt>
+File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png Graphic file (type png)
+<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>
+Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png  used on input line 107.
+(pdftex.def)             Requested size: 354.86412pt x 217.79771pt.
+ [29] [30 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>]) [31] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/case-evaluation.tex
 
 Package xr Warning: 
 No file main.tex.aux
@@ -916,83 +907,52 @@ LABELS NOT IMPORTED.
 
 [32
 
-] [33]
-</home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png, id=130, 1049.9225pt x 644.4075pt>
-File: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png Graphic file (type png)
-<use /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>
-Package pdftex.def Info: /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png  used on input line 107.
-(pdftex.def)             Requested size: 354.86412pt x 217.79771pt.
- [34 </home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/images/deb-package.png>]) [35] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-vaadin.tex
-
-Package xr Warning: 
-No file main.tex.aux
-LABELS NOT IMPORTED.
- on input line 1.
-
-[36
-
-]) [37] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/developing-with-electron-results.tex
-
-Package xr Warning: 
-No file main.tex.aux
-LABELS NOT IMPORTED.
- on input line 1.
-
-) [38
-
-] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/conclusion.tex
-
-Package xr Warning: 
-No file main.tex.aux
-LABELS NOT IMPORTED.
- on input line 1.
-
-) [39
-
-]
+]) [33]
 Using TeX to sort glossary entries---this may take a while
-[40
+[34
 
 ] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [41
+ [35
 
 ] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.lol)
 \tf@lol=\write6
 \openout6 = `main.lol'.
 
- [42
+ [36
 
 ]
-Overfull \hbox (24.58589pt too wide) in paragraph at lines 148--148
+Overfull \hbox (24.58589pt too wide) in paragraph at lines 133--133
 [][]\T1/phv/m/n/10.95 Hans, T. (2019). Ngx-electron. Re-trieved March 13, 2022, from $\T1/cmr/m/n/10.95 https : / / github . com / ThorstenHans /
  []
 
-[43
+[37
 
-] [44] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
+]
 
-LaTeX Warning: There were multiply-defined labels.
+Package biblatex Warning: No driver for entry type ''.
+(biblatex)                Using fallback driver on input line 132.
 
+[38] (/home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21365 strings out of 481239
- 383140 string characters out of 5920376
- 1230084 words of memory out of 5000000
- 36277 multiletter control sequences out of 15000+600000
- 570455 words of font info for 66 fonts, out of 8000000 for 9000
+ 21675 strings out of 481239
+ 386688 string characters out of 5920376
+ 1223537 words of memory out of 5000000
+ 36593 multiletter control sequences out of 15000+600000
+ 565989 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,7n,107p,1060b,4846s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (44 pages, 2175285 bytes).
+Output written on /home/mackesmilian/Documents/FH/BACC/bachelorarbeit/src/main.pdf (38 pages, 2163097 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 170 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

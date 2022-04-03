@@ -7,6 +7,7 @@
 \usepackage{xr}
 \usepackage[english]{babel}
 \usepackage[style=apa]{biblatex}
+\usepackage{titlesec}
 \usepackage{float}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -31,6 +32,9 @@
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\titleformat{\section}
+    {\normalfont\raggedright}{\thesection.}{1em}{}
 
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
@@ -60,6 +64,7 @@
 \newacronym{deb}{deb}{Debian Package}
 \newacronym{poc}{POC}{Proof-of-Concept}
 \newacronym{lts}{LTS}{Long Term Support}
+\newacronym{crud}{CRUD}{Create, Read, Update, and Delete}
 % Document
 \begin{document}
 
@@ -74,29 +79,21 @@
 
     \subsection{What Is Electron?}\label{subsec:what-is-electron}
     \input{what-is-electron.tex}
-    \clearpage
 
     \subsection{Why Use Electron?}\label{subsec:why-use-electron}
     \input{why-use-electron.tex}
-    \clearpage
 
     \subsubsection{Desktop Applications}\label{subsubsec:desktop-applications}
     \input{why-use-electron-desktop.tex}
-    \clearpage
 
     \subsubsection{Web Applications}\label{subsubsec:web-applications}
     \input{why-use-electron-web.tex}
-    \clearpage
 
     \subsubsection{Electron as a Solution}\label{subsubsec:electron-as-solution}
     \input{why-use-electron-solution.tex}
     \clearpage
 
-    \subsection{Other Approaches and Alternatives}\label{subsec:alternatives}
-    \input{alternatives.tex}
-    \clearpage
-
-    \section{Developing with Electron}\label{sec:method}
+    \section{Case Study}\label{sec:method}
     \input{method.tex}
     \input{method-project-outline.tex}
     \input{method-technological.tex}
@@ -104,38 +101,26 @@
 
     \subsection{Creating an Electron Application}\label{subsec:developing-with-electron-creation}
     \input{developing-with-electron-creation.tex}
-    \clearpage
 
     \subsection{Electron and Angular}\label{subsec:developing-with-electron-angular}
     \input{developing-with-electron-angular-intro.tex}
-    \clearpage
 
     \subsubsection{Configuring Angular and Electron}\label{subsubsec:developing-with-electron-angular-config}
     \input{developing-with-electron-angular-config.tex}
-    \clearpage
 
     \subsubsection{Communication between Angular and Electron}\label{subsubsec:developing-with-electron-angular-communication}
     \input{developing-with-electron-angular-communication.tex}
     \clearpage
 
-    \subsubsection{Using Electron's Desktop API}\label{subsubsec:developing-with-electron-angular-api}
+    \subsection{Using Electron's Desktop API}\label{subsec:developing-with-electron-angular-api}
     \input{developing-with-electron-angular-desktop-api.tex}
-    \clearpage
 
-    \subsubsection{Deploying an Electron Application}\label{subsubsec:developing-with-electron-angular-deployment}
+    \subsection{Deploying an Electron Application}\label{subsec:developing-with-electron-angular-deployment}
     \input{developing-with-electron-angular-deployment.tex}
     \clearpage
 
-    \section{Developing with Vaadin}\label{sec:developing-vaadin}
-    \input{developing-vaadin.tex}
-    \clearpage
-
-    \subsection{Results and Evaluation}\label{subsec:developing-with-electron-angular}
-    \input{developing-with-electron-results.tex}
-    \clearpage
-
-    \section{Conclusion}\label{sec:analysis}
-    \input{conclusion.tex}
+    \section{Conclusion}\label{sec:conclusion}
+    \input{case-evaluation.tex}
     \clearpage
 
     \printnoidxglossary[type=\acronymtype]

@@ -2581,9 +2581,9 @@
     <bcf:citekey order="20">jacobs2005</bcf:citekey>
     <bcf:citekey order="21">osenv</bcf:citekey>
     <bcf:citekey order="22">electronDocs</bcf:citekey>
-    <bcf:citekey order="23">taufan2020</bcf:citekey>
-    <bcf:citekey order="24">vaadinDocs</bcf:citekey>
-    <bcf:citekey order="25">caseStudy</bcf:citekey>
+    <bcf:citekey order="23">caseStudy</bcf:citekey>
+    <bcf:citekey order="24">frameworksEfficiency</bcf:citekey>
+    <bcf:citekey order="25">backEndComparison</bcf:citekey>
     <bcf:citekey order="26">angularDocs</bcf:citekey>
     <bcf:citekey order="27">mongoDocs</bcf:citekey>
     <bcf:citekey order="28">flaskDocs</bcf:citekey>
@@ -2611,8 +2611,12 @@
     <bcf:citekey order="50">electronPackager</bcf:citekey>
     <bcf:citekey order="51">electronPackager</bcf:citekey>
     <bcf:citekey order="52">electronDocsDist</bcf:citekey>
-    <bcf:citekey order="53">vaadinDocs</bcf:citekey>
-    <bcf:citekey order="54">vaadinDocs</bcf:citekey>
+    <bcf:citekey order="53">ratingsFW</bcf:citekey>
+    <bcf:citekey order="54">backEndComparison</bcf:citekey>
+    <bcf:citekey order="55">frameworksEfficiency</bcf:citekey>
+    <bcf:citekey order="56">frameworksSecurity</bcf:citekey>
+    <bcf:citekey order="57">discordVulernabilities</bcf:citekey>
+    <bcf:citekey order="58">usabilityHeuristics</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
