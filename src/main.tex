@@ -8,6 +8,7 @@
 \usepackage[english]{babel}
 \usepackage[style=apa]{biblatex}
 \usepackage{titlesec}
+\usepackage{tocloft}
 \usepackage{float}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -32,9 +33,6 @@
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\titleformat{\section}
-    {\normalfont\raggedright}{\thesection.}{1em}{}
 
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
@@ -65,17 +63,54 @@
 \newacronym{poc}{POC}{Proof-of-Concept}
 \newacronym{lts}{LTS}{Long Term Support}
 \newacronym{crud}{CRUD}{Create, Read, Update, and Delete}
+
+
+\renewcommand{\cftsecafterpnum}{\vspace{20pt}}
+\renewcommand{\cftsecdotsep}{1}
+\renewcommand{\cftsubsecdotsep}{1}
+\renewcommand{\cftsubsubsecdotsep}{1}
+\setlength{\cftbeforesecskip}{20pt}
+\setlength\cftsecnumwidth{35pt}
+\setlength\cftsubsecnumwidth{35pt}
+\setlength{\cftsecindent}{0pt}% Remove indent for \section
+\setlength{\cftsubsecindent}{0pt}% Remove indent for \subsection
+\setlength{\cftsubsubsecindent}{0pt}% Remove indent for \subsubsection
+
+\makeatletter
+\patchcmd{\l@section}{#1}{\MakeUppercase{#1}}{}{}
+\makeatother
+
+
 % Document
 \begin{document}
 
-    \maketitle
-    \pagebreak
-    \tableofcontents
-    \pagebreak
+    \pagenumbering{Roman}
 
+    \maketitle
+    \clearpage
+
+    \section*{Ehrenwörtliche Erklärung}\label{sec:ehrenwort}
+    \input{ehrenwort.tex}
+    \clearpage
+    \section*{Kurzfassung}\label{sec:kurzfassung}
+    \input{kurzfassung.tex}
+    \clearpage
+    \section*{Abstract}\label{sec:abstract}
+    \input{abstract.tex}
+    \clearpage
+
+    \tableofcontents
+    \clearpage
+
+    \titleformat{\section}{\bfseries\sffamily\large\MakeUppercase}{\thesection}{0pt}{\hspace{9cm}}{}%
+    \titlespacing{\section}{20pt}{*4}{*1.5}
+
+    \pagenumbering{arabic} 
+    \setcounter{page}{6}
 
     \section{Introduction}\label{sec:introduction}
     \setcounter{tocdepth}{3}
+    \input{intro.tex}
 
     \subsection{What Is Electron?}\label{subsec:what-is-electron}
     \input{what-is-electron.tex}
