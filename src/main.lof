@@ -1,20 +1,20 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces A simplified representation of Electron's architecture. \parencite {jensen2017}\relax }}{6}%
+\contentsline {figure}{\numberline {1-1}{\ignorespaces A simplified representation of Electron's architecture. \parencite {jensen2017}\relax }}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Number of internet users in the US from 2010 to 2025. \parencite {statista2021}\relax }}{9}%
+\contentsline {figure}{\numberline {1-2}{\ignorespaces Number of internet users in the US from 2010 to 2025. \parencite {statista2021}\relax }}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}\relax }}{10}%
+\contentsline {figure}{\numberline {1-3}{\ignorespaces Average internet connection speed in the US 2007-2017. \parencite {akamai2017}\relax }}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces A class diagram representing all entities, relationships and operations.\relax }}{15}%
+\contentsline {figure}{\numberline {2-1}{\ignorespaces A class diagram representing all entities, relationships and operations.\relax }}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces A schematic overview of the application components, simplified.\relax }}{16}%
+\contentsline {figure}{\numberline {2-2}{\ignorespaces A schematic overview of the application components, simplified.\relax }}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces A sequence diagram of the Create Entry use case.\relax }}{17}%
+\contentsline {figure}{\numberline {2-3}{\ignorespaces A sequence diagram of the Create Entry use case.\relax }}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{23}%
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Fetch Backup Data Sequence Diagram: A sequence diagram illustrating how data is fetched on startup\relax }}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{25}%
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Post new Data to API: A sequence diagram illustrating how new data stored on the client machine is posted to the API\relax }}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Installer for the recently created \acrshort {deb} package\relax }}{33}%
+\contentsline {figure}{\numberline {2-6}{\ignorespaces Installer for the recently created \acrshort {deb} package\relax }}{33}%

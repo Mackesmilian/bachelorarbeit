@@ -9,6 +9,7 @@
 \usepackage[style=apa]{biblatex}
 \usepackage{titlesec}
 \usepackage{tocloft}
+\usepackage{chngcntr}
 \usepackage{float}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -64,6 +65,11 @@
 \newacronym{lts}{LTS}{Long Term Support}
 \newacronym{crud}{CRUD}{Create, Read, Update, and Delete}
 
+\AtBeginDocument{%
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+}
+\renewcommand{\cfttoctitlefont}{\normalfont\Large\bfseries\MakeUppercase}
+
 
 \renewcommand{\cftsecafterpnum}{\vspace{20pt}}
 \renewcommand{\cftsecdotsep}{1}
@@ -80,9 +86,17 @@
 \patchcmd{\l@section}{#1}{\MakeUppercase{#1}}{}{}
 \makeatother
 
+\counterwithin{figure}{section}
+\renewcommand\thefigure{\thesection-\arabic{figure}}
+
+
 
 % Document
 \begin{document}
+
+
+    \titleformat{\section}{\bfseries\sffamily\large\MakeUppercase}{\thesection}{0pt}{\quad}{}%
+    \titlespacing{\section}{20pt}{*4}{*1.5}
 
     \pagenumbering{Roman}
 
@@ -158,12 +172,19 @@
     \input{case-evaluation.tex}
     \clearpage
 
+    \titleformat{\section}{\bfseries\sffamily\large\MakeUppercase}{\thesection}{0pt}{\quad}{}%
+    \titlespacing{\section}{20pt}{*4}{*1.5}
+    \addcontentsline{toc}{section}{Acronyms}
     \printnoidxglossary[type=\acronymtype]
     \clearpage
+    \addcontentsline{toc}{section}{List of Figures}
     \listoffigures
     \clearpage
+    \addcontentsline{toc}{section}{Listings}
+    \counterwithin{lstlisting}{section}
     \lstlistoflistings
     \clearpage
+    \addcontentsline{toc}{section}{References}
     \printbibliography
     
     
