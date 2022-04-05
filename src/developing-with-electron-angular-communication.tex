@@ -200,7 +200,7 @@ Note the use of event.reply().
 There are a couple advantages to using event.reply(). 
 Firstly, it is asynchronous. 
 This means it won't block any other code from executing and one can therefore expect better performance 
-than replying with a synchronous message.
+than when replying with a synchronous message.
 Another advantage is the fact that event.reply() automatically handles messages that originate from
 different frames to the main frame. 
 That is to say should the original event be fired from an iframe, this helper method will 
@@ -240,7 +240,7 @@ These zones can be compared to the so-called \acrfull{tls}.
 This means data is not stored globally but privately available for each thread.
 Analogous to \acrshort{tls} Zones exist in JavaScript virtual machines to encapsulate 
 change detection into separate execution contexts. \parencite{angularDocsZone}\paragraph{}
-The underlying functionality is based on the Zone.js which creates said execution contexts.
+The underlying functionality is based on Zone.js which creates said execution contexts.
 These contexts can persist asynchronous operations and Zone.js also provides lifecycle hooks 
 for these asynchronous operations. \parencite{zoneJs}\paragraph{}
 Angular builds on top of Zone.js with the provided NgZone service.

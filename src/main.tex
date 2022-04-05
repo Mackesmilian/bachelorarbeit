@@ -10,12 +10,13 @@
 \usepackage{titlesec}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
+\usepackage{parskip}
 \usepackage{chngcntr}
 \usepackage{float}
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage[T1]{fontenc}
-\usepackage[margin=3cm]{geometry}
+\usepackage[margin=3.2cm]{geometry}
 \usepackage[acronym]{glossaries}
 \usepackage{caption}
 \captionsetup{justification=raggedright,singlelinecheck=false, format=plain, font=small, labelfont=bf}
@@ -100,8 +101,12 @@
 \counterwithin{figure}{section}
 \renewcommand\thefigure{\thesection-\arabic{figure}}
 
+\setlength{\parindent}{0pt}
+
 % Document
 \begin{document}
+    \counterwithin{lstlisting}{section}
+    \renewcommand\thelstlisting{\thesection-\arabic{lstlisting}}
 
     \titleformat{\section}{\bfseries\sffamily\large\MakeUppercase}{\thesection}{0pt}{\quad}{}%
     \titlespacing{\section}{20pt}{*4}{*1.5}
@@ -112,7 +117,9 @@
     \maketitle
     \clearpage
 
-    \section*{Ehrenwörtliche Erklärung}\label{sec:ehrenwort}
+    \setcounter{page}{1}
+
+    \section*{Ehrenwörtliche Erklärung - Statutory Declaration}\label{sec:ehrenwort}
     \input{ehrenwort.tex}
     \clearpage
     \section*{Kurzfassung}\label{sec:kurzfassung}
@@ -129,7 +136,7 @@
     \titlespacing{\section}{20pt}{*4}{*1.5}
 
     \pagenumbering{arabic} 
-    \setcounter{page}{6}
+    \setcounter{page}{5}
 
     \section{Introduction}\label{sec:introduction}
     \setcounter{tocdepth}{3}

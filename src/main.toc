@@ -1,13 +1,23 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{6}%
+\contentsline {section}{\numberline {1}Introduction}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}What Is Electron?}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}What Is Electron?}{6}%
+\contentsline {paragraph}{}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Why Use Electron?}{6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{6}%
 \defcounter {refsection}{0}\relax 
@@ -17,35 +27,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Why Use Electron?}{7}%
+\contentsline {subsubsection}{\numberline {1.2.1}Desktop Applications}{9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1}Desktop Applications}{10}%
+\contentsline {paragraph}{}{9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}%
+\contentsline {paragraph}{}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}%
+\contentsline {paragraph}{}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}%
+\contentsline {subsubsection}{\numberline {1.2.2}Web Applications}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2}Web Applications}{11}%
+\contentsline {paragraph}{}{10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{11}%
+\contentsline {paragraph}{}{10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.2.3}Electron as a Solution}{11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{12}%
+\contentsline {paragraph}{}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Case Study}{12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{12}%
 \defcounter {refsection}{0}\relax 
@@ -53,7 +61,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Case Study}{13}%
+\contentsline {paragraph}{}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{13}%
 \defcounter {refsection}{0}\relax 
@@ -70,16 +82,6 @@
 \contentsline {paragraph}{}{14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{14}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{15}%
 \defcounter {refsection}{0}\relax 
@@ -87,29 +89,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{17}%
-\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Creating an Electron Application}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{19}%
+\contentsline {paragraph}{}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Electron and Angular}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Configuring Angular and Electron}{18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Electron and Angular}{19}%
+\contentsline {paragraph}{}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Configuring Angular and Electron}{19}%
+\contentsline {subsubsection}{\numberline {2.2.2}Communication between Angular and Electron}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{20}%
+\contentsline {paragraph}{}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Communication between Angular and Electron}{20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{20}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{22}%
+\contentsline {paragraph}{}{21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{22}%
 \defcounter {refsection}{0}\relax 
@@ -145,7 +145,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{30}%
+\contentsline {paragraph}{}{31}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{31}%
 \defcounter {refsection}{0}\relax 
@@ -160,8 +160,6 @@
 \contentsline {paragraph}{}{35}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{35}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{}{36}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{}{36}%
 \defcounter {refsection}{0}\relax 

@@ -3,10 +3,11 @@ However, web applications do come with disadvantages.
 As described in \ref{subsubsec:desktop-applications} web apps have their shortcomings such as 
 browser security preventing access to a user's file system or having no access as soon as the internet connection
 fails.\paragraph{}
-This is where frameworks such as Electron manage to strike the near-perfect balance between desktop application and web app.
+This is where frameworks such as Electron manage to strike a balance between desktop application and web app.
 For instance the drawback of not having access to a user's PC's file system does not apply to applications 
-developed using Electron, as the npm module \emph{osenv} can for example retrieve the user's home folder among 
+developed using Electron, as the \acrshort{npm} module \emph{osenv} can for example retrieve the user's home folder among 
 other environment settings. \parencite{osenv}\paragraph{}
+That being only one of the advantages the server-side Node.js framework. 
 Additionally, the disadvantage of having to consider different browsers (and versions thereof) are a non-issue
 with electron because Electron uses Chromium as outlined in \ref{subsec:what-is-electron}. 
 Furthermore, internet access is not a requirement with Electron which means applications can have some offline
@@ -16,10 +17,9 @@ Ultimately, it is at the developer's discretion which form of software to use.
 Native desktop applications, web applications or applications developed using frameworks such as Electron 
 all have advantages and disadvantages, and it is important to consider
 which solution fits an application's and/or user's needs best.\paragraph{}
-In order to facilitate such informed decisions this thesis attempts to answer the question of how web applications can
-be developed and deployed as desktop applications using Electron.
-To answer this question a proof-of-concept application will be developed, which will be explained in more detail
-in the following chapter.
+In order to facilitate such informed decisions this thesis attempts to answer the question of what advantages
+and disadvantages Electron has over web applications.
+To answer this question a case study will be conducted which will be explained in the following chapter.
 The aforementioned considerations and points will be examined in development of said application and 
 finally an evaluation will be made on how effective of an alternative to web applications Electron is 
 and whether the biggest shortfalls of web applications can be eliminated or mitigated by 

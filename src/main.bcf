@@ -2606,17 +2606,18 @@
     <bcf:citekey order="45">angularDocsZone</bcf:citekey>
     <bcf:citekey order="46">mdnKeyboardEvent</bcf:citekey>
     <bcf:citekey order="47">chromeIssueTrackerV4</bcf:citekey>
-    <bcf:citekey order="48">electronKeyboardShortcuts</bcf:citekey>
-    <bcf:citekey order="49">electronDocsDist</bcf:citekey>
-    <bcf:citekey order="50">electronPackager</bcf:citekey>
+    <bcf:citekey order="48">usabilityHeuristics</bcf:citekey>
+    <bcf:citekey order="49">electronKeyboardShortcuts</bcf:citekey>
+    <bcf:citekey order="50">electronDocsDist</bcf:citekey>
     <bcf:citekey order="51">electronPackager</bcf:citekey>
-    <bcf:citekey order="52">electronDocsDist</bcf:citekey>
-    <bcf:citekey order="53">ratingsFW</bcf:citekey>
-    <bcf:citekey order="54">backEndComparison</bcf:citekey>
-    <bcf:citekey order="55">frameworksEfficiency</bcf:citekey>
-    <bcf:citekey order="56">frameworksSecurity</bcf:citekey>
-    <bcf:citekey order="57">discordVulernabilities</bcf:citekey>
-    <bcf:citekey order="58">usabilityHeuristics</bcf:citekey>
+    <bcf:citekey order="52">electronPackager</bcf:citekey>
+    <bcf:citekey order="53">electronDocsDist</bcf:citekey>
+    <bcf:citekey order="54">ratingsFW</bcf:citekey>
+    <bcf:citekey order="55">backEndComparison</bcf:citekey>
+    <bcf:citekey order="56">frameworksEfficiency</bcf:citekey>
+    <bcf:citekey order="57">frameworksSecurity</bcf:citekey>
+    <bcf:citekey order="58">discordVulernabilities</bcf:citekey>
+    <bcf:citekey order="59">usabilityHeuristics</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

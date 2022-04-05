@@ -1,6 +1,6 @@
 \externaldocument{main.tex}
 Having described one of the advantages of Electron over web applications, namely 
-extensive offline functionality, there are a lot more aspects of desktop applications
+extensive offline functionality, there are many more aspects of desktop applications
 which one can access through Electron.
 In this section it will be described how one can create context menus and take advantage 
 of key bindings through Electron.\paragraph{}
@@ -59,10 +59,10 @@ in the web page.}
 In addition to having to take different browsers and their versions into consideration one could also argue
 that by overriding bindings such as \lstinline[columns=fixed]{control + N} one would disregard usability
 conventions because users would most likely expect \lstinline[columns=fixed]{control + N} to open a new 
-browser window and not something website-specific. 
+browser window and not something website-specific. \parencite{usabilityHeuristics}\paragraph*{}
 As far as desktop applications go, however, one does not have to take such points into consideration.
 In this example a listener on \lstinline[columns=fixed]{control + N} was added to open an edit dialog:
-\begin{lstlisting}[caption=Enabling the custom menu.]
+\begin{lstlisting}[caption=Adding a global keyboard shortcut.]
 globalShortcut.register("CommandOrControl+N", () => {
     mainWindow.webContents.send("openDialog");
 });

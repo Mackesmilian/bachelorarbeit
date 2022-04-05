@@ -11,7 +11,8 @@ their approaches do differ in certain ways: \parencite{jensen2017}\par
 \end{figure}
 Without going into detail on how NW.js works, Electron and NW.js share some architectural similarities.
 However, there are some differences in how Electron combines Node.js with Chromium.\paragraph{}
-Architecturally, Electron places an emphasis on strict separation from Chromium source code, ass seen in figure \ref{fig:el-architecture}.
+Architecturally, Electron places an emphasis on strict separation of Chromium source code, 
+as seen in figure \ref{fig:el-architecture}.
 This looser integration allows for easier updates to the Chromium part of the source code, whereas with NW.js Chromium
 is patched to allow for Node.js and Chromium to use a shared Javascript state. \parencite{jensen2017}\par
 On the other hand, this means that Electron has separate JavaScript contexts: A \emph{main} process which starts running
